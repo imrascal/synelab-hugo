@@ -1,18 +1,16 @@
-# Hugo Configuration for SynE Lab Website
-# 合成电子学实验室 - Synthetic Electronics Laboratory
-# https://synelab.xyz
-
-baseURL = "http://synelab.xyz/"
+baseURL = "https://synelab.xyz/"
 languageCode = "zh-cn"
 defaultContentLanguage = "zh"
 defaultContentLanguageInSubdir = false
 title = "合成电子学实验室 | Synthetic Electronics Laboratory"
-[pagination] pagerSize = 10
+
+[pagination]
+pagerSize = 10
+
 enableRobotsTXT = true
 enableEmoji = true
 copyright = "© 2021–2026 Synthetic Electronics Laboratory, ShanghaiTech University"
 
-# Multi-language configuration
 [languages]
   [languages.zh]
     languageCode = "zh-cn"
@@ -38,7 +36,6 @@ copyright = "© 2021–2026 Synthetic Electronics Laboratory, ShanghaiTech Unive
       piName = "Qingqing Ji"
       affiliation = "School of Physical Science and Technology, ShanghaiTech University"
 
-# Menu configuration
 [[menus.main]]
   name = "首页"
   pageRef = "/"
@@ -74,7 +71,6 @@ copyright = "© 2021–2026 Synthetic Electronics Laboratory, ShanghaiTech Unive
   pageRef = "/contact"
   weight = 7
 
-# Markup settings
 [markup]
   [markup.highlight]
     style = "github"
@@ -83,12 +79,10 @@ copyright = "© 2021–2026 Synthetic Electronics Laboratory, ShanghaiTech Unive
     [markup.goldmark.renderer]
       unsafe = true
 
-# Taxonomies
 [taxonomies]
   tag = "tags"
   category = "categories"
 
-# Params
 [params]
   logo = "/images/logo.png"
   favicon = "/images/favicon.png"
@@ -103,7 +97,6 @@ copyright = "© 2021–2026 Synthetic Electronics Laboratory, ShanghaiTech Unive
   spst = "https://spst.shanghaitech.edu.cn/"
   visitorCount = true
 
-# Output formats
 [outputs]
   home = ["HTML", "RSS"]
   section = ["HTML", "RSS"]
