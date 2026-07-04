@@ -36,6 +36,12 @@
 [pi]
   other = "Principal Investigator"
 
+[phd]
+  other = "PhD Students"
+
+[master]
+  other = "Master Students"
+
 [publications_list]
   other = "Publications"
 

@@ -36,6 +36,12 @@
 [pi]
   other = "导师"
 
+[phd]
+  other = "博士研究生"
+
+[master]
+  other = "硕士研究生"
+
 [publications_list]
   other = "论文列表"
 
