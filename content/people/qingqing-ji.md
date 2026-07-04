@@ -1,5 +1,5 @@
 ---
-title: 纪清清
+name: 纪清清
 role: pi
 photo: /images/pi.jpg
 title: 助理教授 / 研究员 / 博导
