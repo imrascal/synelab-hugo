@@ -7,4 +7,4 @@ date: 2025-03-01
 ---
 
 <!-- TODO: 头像 → static/images/people/xia-zeyu.jpg -->
-<!-- 来源：https://xpic.x-mol.com/20250327/1743045665843.jpg -->
+<!-- 来源：https://xpic.x-mol.com/20250327%2F1743045665845.jpg -->
