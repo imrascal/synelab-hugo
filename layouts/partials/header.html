@@ -1,10 +1,9 @@
 {{/* Header partial for SynE Lab Website */}}
 <header class="site-header">
   <div class="header-container">
-    <!-- Top bar with lab logo and language switch -->
     <div class="header-top">
       <div class="lab-brand">
-        <a href="{{ .Site.BaseURL | relLangURL }}">
+        <a href="{{ .Site.BaseURL }}">
           {{ if .Site.Params.logo }}
           <img src="{{ .Site.Params.logo }}" alt="{{ .Site.Params.labName }}" class="lab-logo">
           {{ end }}
@@ -15,29 +14,27 @@
         </a>
       </div>
       <div class="header-actions">
-        <!-- Language Switch -->
-        {{ if .Site.IsMultiLingual }}
+        {{ if gt (len site.Languages) 1 }}
         <div class="lang-switch">
-          {{ range .Site.Languages }}
-          {{ if ne .Lang $.Site.Language.Lang }}
-          <a href="{{ relLangURL $ "" }}" class="lang-link" lang="{{ .Lang }}">{{ .LanguageName }}</a>
-          {{ end }}
+          {{ if eq .Site.Language.Lang "zh" }}
+          <a href="/en/" class="lang-link" lang="en">English</a>
+          {{ else }}
+          <a href="/" class="lang-link" lang="zh">中文</a>
           {{ end }}
         </div>
         {{ end }}
       </div>
     </div>
 
-    <!-- Navigation -->
     <nav class="main-nav">
       <button class="nav-toggle" aria-label="Toggle navigation" onclick="this.parentElement.classList.toggle('nav-open')">
         <span class="hamburger"></span>
       </button>
       <ul class="nav-list">
         {{ $currentPage := . }}
-        {{ range .Site.Menus.main }}
+        {{ range site.Menus.main }}
         <li class="nav-item">
-          <a href="{{ .URL | relLangURL }}" class="nav-link{{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}">
+          <a href="{{ .URL }}" class="nav-link{{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}">
             {{ .Name }}
           </a>
         </li>

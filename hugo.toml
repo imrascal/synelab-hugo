@@ -2,7 +2,7 @@
 # 合成电子学实验室 - Synthetic Electronics Laboratory
 # https://synelab.xyz
 
-baseURL = "https://synelab.xyz/"
+baseURL = "http://synelab.xyz/"
 languageCode = "zh-cn"
 defaultContentLanguage = "zh"
 defaultContentLanguageInSubdir = false

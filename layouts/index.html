@@ -1,7 +1,6 @@
 {{ define "title" }}{{ .Site.Title }}{{ end }}
 
 {{ define "main" }}
-<!-- Hero Section -->
 <section class="hero-section">
   <div class="hero-content">
     <div class="hero-text">
@@ -10,8 +9,10 @@
       <p>{{ .Params.hero_description }}</p>
     </div>
     <div class="hero-profile">
-      {{ with .Site.Params.piPhoto }}
-      <img src="{{ . }}" alt="{{ .Site.Params.piName }}" class="pi-photo">
+      {{ $piPhoto := .Site.Params.piPhoto }}
+      {{ $piName := .Site.Params.piName }}
+      {{ with $piPhoto }}
+      <img src="{{ . }}" alt="{{ $piName }}" class="pi-photo">
       {{ end }}
       <div class="pi-name">{{ .Site.Params.piName }}</div>
       <div class="pi-title">{{ i18n "professor" }}</div>
@@ -20,42 +21,41 @@
   </div>
 </section>
 
-<!-- Research Preview -->
 <div class="page-container">
   <div class="section">
     <h2 class="section-title">
       {{ i18n "research" }}
-      <a href="{{ relLangURL "research/" }}" class="section-more">{{ i18n "read_more" }}</a>
+      <a href="/research/" class="section-more">{{ i18n "read_more" }}</a>
     </h2>
     <div class="research-block">
       <p>{{ .Params.research_summary }}</p>
     </div>
   </div>
 
-  <!-- News Preview -->
   <div class="section">
     <h2 class="section-title">
       {{ i18n "latest_news" }}
-      <a href="{{ relLangURL "news/" }}" class="section-more">{{ i18n "read_more" }}</a>
+      <a href="/news/" class="section-more">{{ i18n "read_more" }}</a>
     </h2>
     <ul class="news-list">
-      {{ range first 5 (where .Site.RegularPages "Section" "news") }}
+      {{ range first 5 .Site.RegularPages }}
+      {{ if eq .Section "news" }}
       <li class="news-item">
-        <span class="news-date">{{ .Params.date.Format "2006-01-02" }}</span>
+        <span class="news-date">{{ .Date.Format "2006-01-02" }}</span>
         <span class="news-text">
           <span class="news-tag {{ .Params.tag }}">{{ .Params.tag }}</span>
           <a href="{{ .RelPermalink }}">{{ .Title }}</a>
         </span>
       </li>
       {{ end }}
+      {{ end }}
     </ul>
   </div>
 
-  <!-- Recent Publications Preview -->
   <div class="section">
     <h2 class="section-title">
       {{ i18n "publications_list" }}
-      <a href="{{ relLangURL "publications/" }}" class="section-more">{{ i18n "read_more" }}</a>
+      <a href="/publications/" class="section-more">{{ i18n "read_more" }}</a>
     </h2>
     <p class="text-muted text-small mb-2">
       *通讯作者；#共同一作；<strong>加粗姓名</strong>：SynE组员
