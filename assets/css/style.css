@@ -252,8 +252,9 @@ h4 { font-size: 1.1rem; }
   content: '';
   position: absolute;
   top: 0; bottom: 0;
-  left: 1.5rem;
-  right: 1.5rem;
+  left: 0;
+  right: 0;
+  width: 100%;
   background: url('/images/hero.jpg') center/cover no-repeat;
   opacity: 0.2;
 }
