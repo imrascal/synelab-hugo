@@ -1,0 +1,352 @@
+# Publications data for Synthetic Electronics Laboratory (SynE Lab)
+# 合成电子学实验室论文数据
+#
+# 字段说明:
+#   - number:   编号
+#   - title:    论文标题
+#   - authors:  作者列表（*通讯作者; #共同一作; **加粗姓名**: SynE组员）
+#   - journal:  期刊名称、卷号、页码
+#   - year:     发表年份
+#   - doi:      DOI 编号（如无则省略）
+#   - highlight: 高亮说明（如无则省略）
+#   - status:   论文状态（如 Submitted / In revision / Accepted，已发表则省略）
+
+# ============================================================
+# Since 2021 (39 papers, #1-#39)
+# ============================================================
+
+since_2021:
+
+  - number: 39
+    title: "Chirality-dependent Electrical Characteristics of MoS2 Nanoscroll Transistors"
+    authors: "Yuanyuan Qiu#, Fei Hu#, ... Qingqing Ji*"
+    journal: "Submitted"
+    year: 2026
+    status: "Submitted"
+
+  - number: 38
+    title: "Revealing the Boltzmann Sigmoidal Activation by Iodide for Tunable Vanadium Doping in Monolayer MoS2"
+    authors: "Yuanyuan Qiu#, Bin Hua#, ... Qingqing Ji*"
+    journal: "Submitted"
+    year: 2026
+    status: "Submitted"
+
+  - number: 37
+    title: "Sub-Attojoule Switching in Two-Dimensional Bismuth Oxyiodide Memristor"
+    authors: "Chuxuan Xiao#, Xinyan Wu#, ... Qingqing Ji*"
+    journal: "Submitted"
+    year: 2026
+    status: "Submitted"
+
+  - number: 36
+    title: "Homo-Metal-Element Mediated Surface Modification of Sapphire for Robust Epitaxy"
+    authors: "Jialong Wang, ... Qingqing Ji*"
+    journal: "In revision"
+    year: 2026
+    status: "In revision"
+
+  - number: 35
+    title: "Organic Metal Halogenide Netted Colloidal Quantum Dot Superlattice"
+    authors: "Haobo Wu, ... Qingqing Ji*"
+    journal: "In revision"
+    year: 2026
+    status: "In revision"
+
+  - number: 34
+    title: "Enhanced Catalytic Activity for Hydrogen Evolution Reaction in Edge-Rich Monolayer Janus WSeS"
+    authors: "Yi Zhou#, Xinyan Wu#, ... Qingqing Ji*"
+    journal: "In revision"
+    year: 2026
+    status: "In revision"
+
+  - number: 33
+    title: "Programmable Anomalous Photovoltaics Enabled by Light-electric Dual-Field Control"
+    authors: "Tonghuan Fu, ... Qingqing Ji*"
+    journal: "J. Am. Chem. Soc."
+    year: 2026
+    status: "Accepted"
+
+  - number: 32
+    title: "Interlayer Electronic Decoupling Unlocks Giant Birefringence in \u03c0-Conjugated Metal\u2013Organic Frameworks"
+    authors: "Jia-Xiang Zhang, Xinyan Wu, ... Qingqing Ji*"
+    journal: "Adv. Mater. 2026"
+    year: 2026
+    doi: "10.1002/adma.73757"
+
+  - number: 31
+    title: "Programming Stacking Order in Conducting Van der Waals Metal\u2013Organic Frameworks"
+    authors: "Yunlong Fan, ... Qingqing Ji*"
+    journal: "Nat. Chem."
+    year: 2026
+
+  - number: 30
+    title: "A Temporal Decoupling Strategy for Controlled Synthesis of 2D TbOBr and Moir\u00e9 Superlattices"
+    authors: "Jing Zhang#, Fei Hu#, ... Qingqing Ji*"
+    journal: "J. Am. Chem. Soc. 2026, 148, 22971-22978"
+    year: 2026
+
+  - number: 29
+    title: "Ultralow Temperature Synthesis of Two-Dimensional Anisotropic FeOCl and Quasi-One-Dimensional Moir\u00e9 Superlattices"
+    authors: "Zemin Zheng, ... Qingqing Ji*"
+    journal: "ACS Nano 2026, 20, 5973-5982"
+    year: 2026
+
+  - number: 28
+    title: "Co-Field-Reconciled Direct Growth of 6-Inch Monolayer Graphene"
+    authors: "Feifan Liu#, Li Jia#, ... Qingqing Ji*"
+    journal: "Natl. Sci. Rev. 2026, 13, nwaf562"
+    year: 2026
+
+  - number: 27
+    title: "Core-Shell Quantum Dots-Enabled Monolayer MoS2 Memories with High Endurance"
+    authors: "Yuanyuan Qiu#, Zhuo Zhao#, ... Qingqing Ji*"
+    journal: "Matter 2026, 9, 102488"
+    year: 2026
+
+  - number: 26
+    title: "Asymmetrical Substitution Manipulates Stacking Modes in 2D Conductive MOF Crystals"
+    authors: "Yi Liu, ... Qingqing Ji*"
+    journal: "J. Am. Chem. Soc. 2025, 147, 48127-48135"
+    year: 2025
+
+  - number: 25
+    title: "Dynamic Sulfur-Rich Network from Silicone Industry Waste"
+    authors: "Zixiao Wang#, Yuanyuan Qiu#, ... Qingqing Ji*"
+    journal: "Green Chem. 2025, 27, 13089-13098"
+    year: 2025
+
+  - number: 24
+    title: "Reversible Manipulations of Triangular-Shaped Mirror Twin Boundary Loops in Ultrathin NiTe2"
+    authors: "Yujin Cheng, Xinyan Wu, ... Qingqing Ji*"
+    journal: "Nano Lett. 2025, 25, 14107-14114"
+    year: 2025
+
+  - number: 23
+    title: "Wafer-Scale Synthesis of Monolayer TMDCs Single Crystals via \"Trojan\" Metal Precursor Supply Route"
+    authors: "Jingyi Hu, ... Qingqing Ji*"
+    journal: "Adv. Funct. Mater. 2025, 36, e14502"
+    year: 2025
+
+  - number: 22
+    title: "Impact of Interfacial Configurations on the Growth of Few-Layer NbSe2 on Sapphire"
+    authors: "Shuaishuai Yin#, ... Qingqing Ji*"
+    journal: "Nano Lett. 2025, 25, 10603-10610"
+    year: 2025
+
+  - number: 21
+    title: "Phase Modulation of 2D GaTe from Hexagonal to Monoclinic"
+    authors: "Wenzhi Quan#, Xinyan Wu#, ... Qingqing Ji*"
+    journal: "Nano Lett. 2025, 25, 6614-6621"
+    year: 2025
+
+  - number: 20
+    title: "Mechanical Impacts of Random Defects in Monolayer MoS2 by Stochastic Finite Element Modeling"
+    authors: "Liu Chu*, Qingqing Ji*"
+    journal: "ACS Appl. Nano Mater. 2025, 8, 4060-4066"
+    year: 2025
+
+  - number: 19
+    title: "Epitaxial Growth of Monolayer WS2 Single Crystals on Au(111)"
+    authors: "Jialong Wang, ... Qingqing Ji*"
+    journal: "ACS Nano 2024, 18, 26359-26368"
+    year: 2024
+
+  - number: 18
+    title: "Dopant-Mediated Carrier Tunneling in Short-Channel 2D Transistors"
+    authors: "Yue Lu#, Chenyu Li#, ... Qingqing Ji*"
+    journal: "Mater. Chem. Front. 2024, 8, 3300-3307"
+    year: 2024
+
+  - number: 17
+    title: "Substantial Energy Band Modulation of GaTe Quantum Wells"
+    authors: "Wenzhi Quan#, Yue Lu#, ... Qingqing Ji*"
+    journal: "ACS Nano 2024, 18, 20591-20599"
+    year: 2024
+
+  - number: 16
+    title: "Unveiling Spatiotemporal Diffusion of Hot Carriers in Monolayer MoS2"
+    authors: "Xiaofan Wei#, ... Qingqing Ji*"
+    journal: "Nano Lett. 2024, 24, 9269-9275"
+    year: 2024
+
+  - number: 15
+    title: "Large-Domain Monolayer MoS2 Synthesis via Local-Feeding MOCVD"
+    authors: "Yan Yang#, Yuanyuan Qiu#, ... Qingqing Ji*"
+    journal: "ACS Mater. Lett. 2024, 6, 2802-2808"
+    year: 2024
+
+  - number: 14
+    title: "In-Plane Ferroelectrics Enabling Reduced Hysteresis in MoS2 Transistors"
+    authors: "Mingxuan Yuan, ... Qingqing Ji*"
+    journal: "Carbon Neutral. 2024, 3, 700-709"
+    year: 2024
+
+  - number: 13
+    title: "Large-Substrate-Terrace Confined Growth of Arrayed Ultrathin PtSe2 Ribbons"
+    authors: "Jiatian Fu#, ... Qingqing Ji*"
+    journal: "Small 2024, 202401770"
+    year: 2024
+
+  - number: 12
+    title: "One-Dimensional MoS2 Nanoscrolls as Miniaturized Memories"
+    authors: "Shuo Qiao, ... Qingqing Ji*"
+    journal: "Nano Lett. 2024, 24, 4498-4504"
+    year: 2024
+
+  - number: 11
+    title: "Spontaneous Line Defect-Induced Co4Te7 Superlattices Featuring Flat Bands"
+    authors: "Wenzhi Quan, ... Qingqing Ji*"
+    journal: "Adv. Funct. Mater. 2024, 34, 2315831"
+    year: 2024
+
+  - number: 10
+    title: "Stoichiometry-Tunable Synthesis of 2D Chromium Selenides"
+    authors: "Fangfang Cui, ... Qingqing Ji*"
+    journal: "ACS Nano 2024, 18, 6276-6285"
+    year: 2024
+
+  - number: 9
+    title: "Surface Heterojunction Based on n-Type Low Dimensional Perovskite Film for Perovskite Tandem Solar Cells"
+    authors: "Xianyuan Jiang, ... Qingqing Ji*"
+    journal: "Natl. Sci. Rev. 2024, 11, nwae055"
+    year: 2024
+
+  - number: 8
+    title: "Electron-Withdrawing Organic Ligand for High Efficiency All-Perovskite Tandem Solar Cells"
+    authors: "Danni Yu, ... Qingqing Ji*"
+    journal: "Nat. Energy 2024, 9, 298-307"
+    year: 2024
+
+  - number: 7
+    title: "Highly Stable Vertically Oriented 2H-NbS2 Nanosheets on CNT Films"
+    authors: "You Peng, ... Qingqing Ji*"
+    journal: "Adv. Energy Mater. 2024, 14, 2302510"
+    year: 2024
+
+  - number: 6
+    title: "Synthetic Two-Dimensional Electronics for Transistor Scaling"
+    authors: "Zihan Wang#, Yan Yang#, ... Qingqing Ji*"
+    journal: "Front. Phys. 2023, 18, 63601"
+    year: 2023
+
+  - number: 5
+    title: "Synergistic Photon Management and Strain-Induced Band Gap Engineering of MoS2"
+    authors: "Xiaoxue Gao, ... Qingqing Ji*"
+    journal: "ACS Appl. Mater. Interfaces 2023, 15, 23564-23572"
+    year: 2023
+
+  - number: 4
+    title: "Soft-Lock Drawing of Super-Aligned Carbon Nanotube Bundles"
+    authors: "Yunfan Guo, ... Qingqing Ji*"
+    journal: "Nat. Nanotechnol. 2022, 17, 278-284"
+    year: 2022
+
+  - number: 3
+    title: "Revealing the Br\u00f8nsted-Evans-Polanyi Relation in Halide-Activated Fast MoS2 Growth"
+    authors: "Qingqing Ji, Cong Su, ... Jing Kong*"
+    journal: "Sci. Adv. 2021, 7, eabj3274"
+    year: 2021
+
+  - number: 2
+    title: "Anomalous Heavy Doping in CVD Titanium Trisulfide Nanostructures"
+    authors: "Mengxing Sun, ... Qingqing Ji*"
+    journal: "Phys. Rev. Mater. 2021, 5, 094002"
+    year: 2021
+
+  - number: 1
+    title: "Designing Artificial Two-Dimensional Landscapes via Atomic-Layer Substitution"
+    authors: "Yunfan Guo, ... Qingqing Ji*"
+    journal: "Proc. Natl. Acad. Sci. USA 2021, 118, e2106124118"
+    year: 2021
+
+# ============================================================
+# Before 2021 (50 papers, #1-#50)
+# 以下列出前几篇作为示例，其余论文请按相同格式补充。
+# ============================================================
+
+before_2021:
+
+  # --- 示例论文 (50篇中的前5篇) ---
+  # 其余45篇请按相同格式补充，字段与 since_2021 一致。
+
+  - number: 50
+    title: "Continuity and Transparency Trade-off in Carbon Nanotube Films"
+    authors: "Qingqing Ji, ... Jing Kong*"
+    journal: "Adv. Funct. Mater. 2020, 30, 2003441"
+    year: 2020
+
+  - number: 49
+    title: "Low-Temperature Growth of Monolayer MoS2 on Sapphire via Close-Spaced Proximity CVD"
+    authors: "Qingqing Ji, ... Jing Kong*"
+    journal: "Chem. Mater. 2020, 32, 10270-10277"
+    year: 2020
+
+  - number: 48
+    title: "Role of Molecular Seeding in Chemical Vapor Deposition Growth of Transition Metal Dichalcogenides"
+    authors: "Qingqing Ji, ... Jing Kong*"
+    journal: "2D Mater. 2020, 7, 045025"
+    year: 2020
+
+  - number: 47
+    title: "Epitaxial Growth of Monolayer MoS2 on Sapphire with Preferred Crystallographic Orientations"
+    authors: "Qingqing Ji, ... Jing Kong*"
+    journal: "ACS Nano 2019, 13, 12032-12041"
+    year: 2019
+
+  - number: 46
+    title: "Transition Metal Dichalcogenides: Controlled Synthesis and Optical Properties"
+    authors: "Qingqing Ji, ... Jing Kong*"
+    journal: "AIP Adv. 2019, 9, 070701"
+    year: 2019
+
+  # --- #45 至 #1 的论文请按上述格式补充 ---
+  # 格式示例:
+  # - number: 45
+  #   title: "论文标题"
+  #   authors: "作者列表"
+  #   journal: "期刊名 年份, 卷, 页码"
+  #   year: YYYY
+  #   doi: "10.xxxx/xxxxx"   # 可选
+  #   highlight: "被选为封面/编辑推荐等"  # 可选
+
+# ============================================================
+# Patents (6 items)
+# 专利申请
+# ============================================================
+
+patents:
+  - number: 1
+    title: "一种制备过渡金属硫属化合物纳米薄片的方法"
+    authors: "张艳锋, 张哲朋, 纪清清"
+    journal: "CN107445204A"
+    year: 2017
+
+  - number: 2
+    title: "利用金属性过渡金属硫属化合物制备超级电容器电极"
+    authors: "张艳锋, 杨鹏飞, 纪清清, 李聪"
+    journal: "CN107452516A"
+    year: 2017
+
+  - number: 3
+    title: "In Situ Generation of Gaseous Precursors for CVD"
+    authors: "Jing Kong, Qingqing Ji, Zhenfei Gao"
+    journal: "US Patent App. 16/382,407"
+    year: 2019
+
+  - number: 4
+    title: "一种硫化钼二维材料的制备方法"
+    authors: "纪清清, 杨衍, 花斌"
+    journal: "CN117144478A"
+    year: 2023
+
+  - number: 5
+    title: "一种二硫化钼纳米卷及其制备方法和应用"
+    authors: "纪清清, 乔朔"
+    journal: "CN117524845A"
+    year: 2024
+
+  - number: 6
+    title: "一种电荷存储器件及其制备方法"
+    authors: "纪清清, 裘元园, 濮超丹, 赵卓"
+    journal: "CN118099224A"
+    year: 2024

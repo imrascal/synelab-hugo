@@ -1,0 +1,25 @@
+{{ define "title" }}{{ i18n "positions" }} | {{ .Site.Title }}{{ end }}
+
+{{ define "main" }}
+<div class="page-container">
+  <div class="page-header">
+    <div class="breadcrumb">
+      <a href="{{ .Site.BaseURL | relLangURL }}">{{ i18n "home" }}</a> &gt; {{ .Title }}
+    </div>
+    <h1>{{ .Title }}</h1>
+  </div>
+
+  <div class="section">
+    {{ .Content }}
+    {{ range .Pages }}
+    <div class="position-card">
+      <h3>{{ .Title }}</h3>
+      <span class="text-muted text-small">{{ .Params.date.Format "2006-01-02" }}</span>
+      <div class="mt-1">
+        {{ .Content }}
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

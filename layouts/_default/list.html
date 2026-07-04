@@ -1,0 +1,27 @@
+{{ define "title" }}{{ .Title }} | {{ .Site.Title }}{{ end }}
+
+{{ define "main" }}
+<div class="page-container">
+  <div class="page-header">
+    <div class="breadcrumb">
+      <a href="{{ .Site.BaseURL | relLangURL }}">{{ i18n "home" }}</a> &gt; {{ .Title }}
+    </div>
+    <h1>{{ .Title }}</h1>
+  </div>
+
+  <div class="page-content">
+    {{ .Content }}
+    {{ if .Pages }}
+    {{ range .Pages }}
+    <div class="list-item">
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      {{ if .Params.date }}
+      <span class="text-muted text-small">{{ .Params.date.Format "2006-01-02" }}</span>
+      {{ end }}
+      <p>{{ .Params.summary }}</p>
+    </div>
+    {{ end }}
+    {{ end }}
+  </div>
+</div>
+{{ end }}

@@ -1,0 +1,30 @@
+{{ define "title" }}{{ i18n "news" }} | {{ .Site.Title }}{{ end }}
+
+{{ define "main" }}
+<div class="page-container">
+  <div class="page-header">
+    <div class="breadcrumb">
+      <a href="{{ .Site.BaseURL | relLangURL }}">{{ i18n "home" }}</a> &gt; {{ .Title }}
+    </div>
+    <h1>{{ .Title }}</h1>
+  </div>
+
+  <div class="section">
+    {{ .Content }}
+
+    <ul class="news-list">
+      {{ range .Pages.ByDate.Reverse }}
+      <li class="news-item">
+        <span class="news-date">{{ .Params.date.Format "2006-01-02" }}</span>
+        <span class="news-text">
+          {{ with .Params.tag }}
+          <span class="news-tag {{ . }}">{{ . }}</span>
+          {{ end }}
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </span>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</div>
+{{ end }}

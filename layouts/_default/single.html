@@ -1,0 +1,16 @@
+{{ define "title" }}{{ .Title }} | {{ .Site.Title }}{{ end }}
+
+{{ define "main" }}
+<div class="page-container">
+  <div class="page-header">
+    <div class="breadcrumb">
+      <a href="{{ .Site.BaseURL | relLangURL }}">{{ i18n "home" }}</a> &gt; {{ .Title }}
+    </div>
+    <h1>{{ .Title }}</h1>
+  </div>
+
+  <article class="page-content">
+    {{ .Content }}
+  </article>
+</div>
+{{ end }}

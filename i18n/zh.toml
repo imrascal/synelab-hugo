@@ -1,0 +1,118 @@
+# Chinese translations for SynE Lab Website
+
+[home]
+  other = "首页"
+
+[research]
+  other = "研究方向"
+
+[people]
+  other = "组员介绍"
+
+[publications]
+  other = "成果及论文"
+
+[news]
+  other = "课题组新闻"
+
+[positions]
+  other = "加入我们"
+
+[contact]
+  other = "联系我们"
+
+[read_more]
+  other = "更多 >"
+
+[latest_news]
+  other = "课题组新闻"
+
+[current_members]
+  other = "当前组员"
+
+[alumni]
+  other = "往届组员"
+
+[pi]
+  other = "导师"
+
+[publications_list]
+  other = "论文列表"
+
+[patents]
+  other = "专利申请"
+
+[back]
+  other = "< 返回"
+
+[to_top]
+  other = "回到顶部 ↑"
+
+[last_updated]
+  other = "最后更新"
+
+[footer_copyright]
+  other = "© 2021–2026 合成电子学实验室 上海科技大学 物质科学与技术学院"
+
+[footer_address]
+  other = "地址：上海市浦东新区华夏中路393号物质学院6号楼503室，邮编 201210"
+
+[footer_email]
+  other = "邮箱："
+
+[footer_phone]
+  other = "电话："
+
+[mobile_browse]
+  other = "手机浏览"
+
+[scan_qr]
+  other = "扫一扫"
+
+[friendly_links]
+  other = "友情链接"
+
+[submit]
+  other = "提交"
+
+[name]
+  other = "姓名"
+
+[email_label]
+  other = "邮箱"
+
+[message]
+  other = "留言"
+
+[research_interests]
+  other = "近期研究兴趣"
+
+[before_2021]
+  other = "2021年之前"
+
+[since_2021]
+  other = "2021年至今"
+
+[phd_student]
+  other = "博士研究生"
+
+[master_student]
+  other = "硕士研究生"
+
+[undergraduate]
+  other = "本科生"
+
+[postdoc]
+  other = "博士后"
+
+[visitor]
+  other = "访问学生"
+
+[professor]
+  other = "助理教授 / 研究员 / 博导"
+
+[news_research]
+  other = "Research"
+
+[news_activities]
+  other = "Activities"

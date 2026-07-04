@@ -1,0 +1,62 @@
+{{ define "title" }}{{ i18n "contact" }} | {{ .Site.Title }}{{ end }}
+
+{{ define "main" }}
+<div class="page-container">
+  <div class="page-header">
+    <div class="breadcrumb">
+      <a href="{{ .Site.BaseURL | relLangURL }}">{{ i18n "home" }}</a> &gt; {{ .Title }}
+    </div>
+    <h1>{{ .Title }}</h1>
+  </div>
+
+  <div class="section">
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h3>{{ i18n "contact" }}</h3>
+
+        <div class="contact-item">
+          <span class="contact-icon">&#128205;</span>
+          <div>
+            <strong>Address</strong><br>
+            {{ .Site.Params.address }}
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <span class="contact-icon">&#9993;</span>
+          <div>
+            <strong>Email</strong><br>
+            <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <span class="contact-icon">&#128222;</span>
+          <div>
+            <strong>Phone</strong><br>
+            {{ .Site.Params.phone }}
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <span class="contact-icon">&#127968;</span>
+          <div>
+            <strong>Affiliation</strong><br>
+            {{ .Site.Params.affiliation }}
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3412.123!2d121.5907!3d31.0254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzHCsDAxJzMxLjQiTiAxMjHCsDM1JzI2LjUiRQ!5e0!3m2!1szh-CN!2scn!4v1700000000000!5m2!1szh-CN!2scn"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="SynE Lab Location">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}

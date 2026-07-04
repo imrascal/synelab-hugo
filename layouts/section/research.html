@@ -1,0 +1,37 @@
+{{ define "title" }}{{ i18n "research" }} | {{ .Site.Title }}{{ end }}
+
+{{ define "main" }}
+<div class="page-container">
+  <div class="page-header">
+    <div class="breadcrumb">
+      <a href="{{ .Site.BaseURL | relLangURL }}">{{ i18n "home" }}</a> &gt; {{ .Title }}
+    </div>
+    <h1>{{ .Title }}</h1>
+  </div>
+
+  <div class="section">
+    {{ .Content }}
+
+    {{/* Research images */}}
+    {{ with .Params.research_images }}
+    <div class="research-images">
+      {{ range . }}
+      <img src="{{ . }}" alt="Research" loading="lazy">
+      {{ end }}
+    </div>
+    {{ end }}
+
+    {{/* Research interests */}}
+    {{ with .Params.interests }}
+    <div class="research-interests">
+      <h4>{{ i18n "research_interests" }}</h4>
+      <ol>
+        {{ range . }}
+        <li>{{ . }}</li>
+        {{ end }}
+      </ol>
+    </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

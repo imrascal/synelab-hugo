@@ -1,0 +1,41 @@
+{{/* Footer partial for SynE Lab Website */}}
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-grid">
+      <!-- Contact info -->
+      <div class="footer-section">
+        <h3>{{ i18n "contact" }}</h3>
+        <p>{{ i18n "footer_address" }}</p>
+        <p>{{ i18n "footer_email" }}<a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a></p>
+        <p>{{ i18n "footer_phone" }}{{ .Site.Params.phone }}</p>
+      </div>
+
+      <!-- Friendly Links -->
+      <div class="footer-section">
+        <h3>{{ i18n "friendly_links" }}</h3>
+        <ul class="footer-links">
+          <li><a href="https://www.shanghaitech.edu.cn/" target="_blank">上海科技大学</a></li>
+          <li><a href="https://spst.shanghaitech.edu.cn/" target="_blank">上科大物质科学与技术学院</a></li>
+          <li><a href="https://eshare.shanghaitech.edu.cn/" target="_blank">上科大仪器共享平台</a></li>
+          <li><a href="https://www.nature.com/subjects/two-dimensional-materials" target="_blank">Nature: 2D Materials</a></li>
+          <li><a href="https://pubs.acs.org/" target="_blank">ACS Publications</a></li>
+          <li><a href="https://materials.springer.com/" target="_blank">Springer Materials</a></li>
+        </ul>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="{{ relLangURL "research/" }}">Research</a></li>
+          <li><a href="{{ relLangURL "publications/" }}">Publications</a></li>
+          <li><a href="{{ relLangURL "positions/" }}">Positions</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>{{ i18n "footer_copyright" }}</p>
+    </div>
+  </div>
+</footer>
