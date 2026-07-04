@@ -79,8 +79,7 @@ copyright = "© 2021–2026 Synthetic Electronics Laboratory, ShanghaiTech Unive
 [markup]
   [markup.highlight]
     style = "github"
-    [markup.highlight.lineNos]
-      tableCellNumber = true
+    lineNos = true
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
