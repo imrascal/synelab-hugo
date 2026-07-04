@@ -1,12 +1,12 @@
 ---
 title: 研究方向
 date: 2021-09-01
-interests:
-  - "面向先进制程的低维材料设计与电子器件构筑"
-  - "莫尔超晶格材料的化学制备与器件设计"
 research_images:
   - /images/research-1.png
   - /images/research-2.png
+interests:
+  - "面向先进制程的低维材料设计与电子器件构筑"
+  - "莫尔超晶格材料的化学制备与器件设计"
 ---
 
 ## 合成电子学
