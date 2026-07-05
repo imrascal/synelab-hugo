@@ -34,7 +34,7 @@
         {{ $currentPage := . }}
         {{ range site.Menus.main }}
         <li class="nav-item">
-          <a href="{{ .URL }}" class="nav-link{{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}">
+          <a href="{{ .URL | relLangURL }}" class="nav-link{{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}">
             {{ .Name }}
           </a>
         </li>
