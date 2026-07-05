@@ -69,27 +69,27 @@ copyright = "© 2021–2026 Synthetic Electronics Laboratory, ShanghaiTech Unive
       weight = 1
     [[languages.en.menus.main]]
       name = "Research"
-      url = "/research"
+      url = "/en/research"
       weight = 2
     [[languages.en.menus.main]]
       name = "People"
-      url = "/people"
+      url = "/en/people"
       weight = 3
     [[languages.en.menus.main]]
       name = "Publications"
-      url = "/publications"
+      url = "/en/publications"
       weight = 4
     [[languages.en.menus.main]]
       name = "News"
-      url = "/news"
+      url = "/en/news"
       weight = 5
     [[languages.en.menus.main]]
       name = "Positions"
-      url = "/positions"
+      url = "/en/positions"
       weight = 6
     [[languages.en.menus.main]]
       name = "Contact"
-      url = "/contact"
+      url = "/en/contact"
       weight = 7
 
 [markup]
