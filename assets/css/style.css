@@ -242,7 +242,7 @@ h4 { font-size: 1.1rem; }
 
 /* ---------- Hero Section (Homepage) ---------- */
 .hero-section {
-  position: sticky;
+  position: relative;
   background: 
     linear-gradient(135deg, rgba(26,54,93,0.82) 0%, rgba(44,82,130,0.82) 100%),
     url('/images/hero.jpg') center/cover no-repeat;
