@@ -12,14 +12,6 @@
   <div class="section">
     {{ .Content }}
 
-    {{/* Research images */}}
-    {{ with .Params.research_images }}
-    <div class="research-images">
-      {{ range . }}
-      <img src="{{ . }}" alt="Research" loading="lazy">
-      {{ end }}
-    </div>
-    {{ end }}
 
     {{/* Research interests */}}
     {{ with .Params.interests }}
@@ -30,6 +22,15 @@
         <li>{{ . }}</li>
         {{ end }}
       </ol>
+    </div>
+    {{ end }}
+
+    {{/* Research images */}}
+    {{ with .Params.research_images }}
+    <div class="research-images">
+      {{ range . }}
+      <img src="{{ . }}" alt="Research" loading="lazy">
+      {{ end }}
     </div>
     {{ end }}
   </div>
