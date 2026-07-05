@@ -23,53 +23,74 @@ copyright = "© 2021–2026 Synthetic Electronics Laboratory, ShanghaiTech Unive
       labSlogan = "以化成器 | Towards electronics, in a chemistry way"
       piName = "纪清清"
       affiliation = "上海科技大学物质科学与技术学院"
+    [[languages.zh.menus.main]]
+      name = "首页"
+      pageRef = "/"
+      weight = 1
+    [[languages.zh.menus.main]]
+      name = "研究方向"
+      pageRef = "/research"
+      weight = 2
+    [[languages.zh.menus.main]]
+      name = "组员介绍"
+      pageRef = "/people"
+      weight = 3
+    [[languages.zh.menus.main]]
+      name = "成果及论文"
+      pageRef = "/publications"
+      weight = 4
+    [[languages.zh.menus.main]]
+      name = "课题组新闻"
+      pageRef = "/news"
+      weight = 5
+    [[languages.zh.menus.main]]
+      name = "加入我们"
+      pageRef = "/positions"
+      weight = 6
+    [[languages.zh.menus.main]]
+      name = "联系我们"
+      pageRef = "/contact"
+      weight = 7
 
   [languages.en]
     languageCode = "en"
     languageName = "English"
     weight = 2
     title = "Synthetic Electronics Laboratory"
-    description = "Towards electronics, in a chemistry way"
+    description = "以化成器 | Towards electronics, in a chemistry way"
     [languages.en.params]
       labName = "Synthetic Electronics Laboratory"
       labSlogan = "Towards electronics, in a chemistry way"
       piName = "Qingqing Ji"
       affiliation = "School of Physical Science and Technology, ShanghaiTech University"
-
-[[menus.main]]
-  name = "首页"
-  pageRef = "/"
-  weight = 1
-
-[[menus.main]]
-  name = "研究方向"
-  pageRef = "/research"
-  weight = 2
-
-[[menus.main]]
-  name = "组员介绍"
-  pageRef = "/people"
-  weight = 3
-
-[[menus.main]]
-  name = "成果及论文"
-  pageRef = "/publications"
-  weight = 4
-
-[[menus.main]]
-  name = "课题组新闻"
-  pageRef = "/news"
-  weight = 5
-
-[[menus.main]]
-  name = "加入我们"
-  pageRef = "/positions"
-  weight = 6
-
-[[menus.main]]
-  name = "联系我们"
-  pageRef = "/contact"
-  weight = 7
+    [[languages.en.menus.main]]
+      name = "Home"
+      pageRef = "/"
+      weight = 1
+    [[languages.en.menus.main]]
+      name = "Research"
+      pageRef = "/research"
+      weight = 2
+    [[languages.en.menus.main]]
+      name = "People"
+      pageRef = "/people"
+      weight = 3
+    [[languages.en.menus.main]]
+      name = "Publications"
+      pageRef = "/publications"
+      weight = 4
+    [[languages.en.menus.main]]
+      name = "News"
+      pageRef = "/news"
+      weight = 5
+    [[languages.en.menus.main]]
+      name = "Positions"
+      pageRef = "/positions"
+      weight = 6
+    [[languages.en.menus.main]]
+      name = "Contact"
+      pageRef = "/contact"
+      weight = 7
 
 [markup]
   [markup.highlight]
