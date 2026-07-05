@@ -13,17 +13,6 @@
           </div>
         </a>
       </div>
-      <div class="header-actions">
-        {{ if gt (len site.Languages) 1 }}
-        <div class="lang-switch">
-          {{ if eq .Site.Language.Lang "zh" }}
-          <a href="/en/" class="lang-link" lang="en">English</a>
-          {{ else }}
-          <a href="/" class="lang-link" lang="zh">中文</a>
-          {{ end }}
-        </div>
-        {{ end }}
-      </div>
     </div>
 
     <nav class="main-nav">
