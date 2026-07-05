@@ -1,25 +1,27 @@
 {{ define "title" }}{{ .Site.Title }}{{ end }}
 
 {{ define "main" }}
-<section class="hero-section">
-  <div class="hero-content">
-    <div class="hero-text">
-      <h1>{{ .Site.Params.labName }}</h1>
-      <p class="slogan">{{ .Site.Params.labSlogan }}</p>
-      <p>{{ .Params.hero_description }}</p>
+<div class="header-container">
+  <section class="hero-section">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>{{ .Site.Params.labName }}</h1>
+        <p class="slogan">{{ .Site.Params.labSlogan }}</p>
+        <p>{{ .Params.hero_description }}</p>
+      </div>
+      <div class="hero-profile">
+        {{ $piPhoto := .Site.Params.piPhoto }}
+        {{ $piName := .Site.Params.piName }}
+        {{ with $piPhoto }}
+        <img src="{{ . }}" alt="{{ $piName }}" class="pi-photo">
+        {{ end }}
+        <div class="pi-name">{{ .Site.Params.piName }}</div>
+        <div class="pi-title">{{ i18n "professor" }}</div>
+        <div class="pi-bio">{{ .Params.pi_bio }}</div>
+      </div>
     </div>
-    <div class="hero-profile">
-      {{ $piPhoto := .Site.Params.piPhoto }}
-      {{ $piName := .Site.Params.piName }}
-      {{ with $piPhoto }}
-      <img src="{{ . }}" alt="{{ $piName }}" class="pi-photo">
-      {{ end }}
-      <div class="pi-name">{{ .Site.Params.piName }}</div>
-      <div class="pi-title">{{ i18n "professor" }}</div>
-      <div class="pi-bio">{{ .Params.pi_bio }}</div>
-    </div>
-  </div>
-</section>
+  </section>
+</div>
 
 <div class="page-container">
   <div class="section">
