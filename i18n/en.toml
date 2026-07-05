@@ -1,0 +1,124 @@
+# English translations for SynE Lab Website
+
+[home]
+  other = "Home"
+
+[research]
+  other = "Research"
+
+[people]
+  other = "People"
+
+[publications]
+  other = "Publications"
+
+[news]
+  other = "News"
+
+[positions]
+  other = "Positions"
+
+[contact]
+  other = "Contact"
+
+[read_more]
+  other = "More >"
+
+[latest_news]
+  other = "Lab News"
+
+[current_members]
+  other = "Current Members"
+
+[alumni]
+  other = "Alumni"
+
+[pi]
+  other = "Principal Investigator"
+
+[phd]
+  other = "PhD Students"
+
+[master]
+  other = "Master Students"
+
+[publications_list]
+  other = "Publications"
+
+[patents]
+  other = "Patents"
+
+[back]
+  other = "< Back"
+
+[to_top]
+  other = "Back to top ↑"
+
+[last_updated]
+  other = "Last Updated"
+
+[footer_copyright]
+  other = "© 2021–2026 Synthetic Electronics Laboratory, ShanghaiTech University"
+
+[footer_address]
+  other = "Room 503, Building 6, SPST, 393 Huaxia Middle Road, Pudong, Shanghai 201210, China"
+
+[footer_email]
+  other = "Email: "
+
+[footer_phone]
+  other = "Phone: "
+
+[mobile_browse]
+  other = "Mobile"
+
+[scan_qr]
+  other = "Scan QR"
+
+[friendly_links]
+  other = "Links"
+
+[submit]
+  other = "Submit"
+
+[name]
+  other = "Name"
+
+[email_label]
+  other = "Email"
+
+[message]
+  other = "Message"
+
+[research_interests]
+  other = "Recent Research Interests"
+
+[before_2021]
+  other = "Before 2021"
+
+[since_2021]
+  other = "Since 2021"
+
+[phd_student]
+  other = "Ph.D. Student"
+
+[master_student]
+  other = "Master Student"
+
+[undergraduate]
+  other = "Undergraduate"
+
+[postdoc]
+  other = "Postdoc"
+
+[visitor]
+  other = "Visiting Student"
+
+[professor]
+  other = "Assistant Professor / PI"
+
+[news_research]
+  other = "Research"
+
+[news_activities]
+  other = "Activities"

@@ -1,29 +1,96 @@
 baseURL = "https://synelab.xyz/"
 languageCode = "zh-cn"
-title = "合成电子学实验室"
+defaultContentLanguage = "zh"
+defaultContentLanguageInSubdir = false
+title = "合成电子学实验室 | Synthetic Electronics Laboratory"
 
 [pagination]
 pagerSize = 10
 
 enableRobotsTXT = true
 enableEmoji = true
-copyright = "© 2021–2026 合成电子学实验室 上海科技大学"
+copyright = "© 2021–2026 Synthetic Electronics Laboratory, ShanghaiTech University"
 
-[params]
-  labName = "合成电子学实验室"
-  labSlogan = "以化成器 | Towards electronics, in a chemistry way"
-  piName = "纪清清"
-  piPhoto = "/images/pi.jpg"
-  logo = "/images/logo.png"
-  favicon = "/images/favicon.png"
-  heroImage = "/images/hero.jpg"
-  email = "jiqq@shanghaitech.edu.cn"
-  phone = "(021)-20684747"
-  address = "上海市浦东新区华夏中路393号物质学院6号楼503室"
-  github = "https://github.com/synelab"
-  shanghaitech = "https://www.shanghaitech.edu.cn/"
-  spst = "https://spst.shanghaitech.edu.cn/"
-  visitorCount = true
+[languages]
+  [languages.zh]
+    languageCode = "zh-cn"
+    languageName = "中文"
+    weight = 1
+    title = "合成电子学实验室"
+    description = "以化成器 | Towards electronics, in a chemistry way"
+    [languages.zh.params]
+      labName = "合成电子学实验室"
+      labSlogan = "以化成器 | Towards electronics, in a chemistry way"
+      piName = "纪清清"
+      affiliation = "上海科技大学物质科学与技术学院"
+    [[languages.zh.menus.main]]
+      name = "首页"
+      url = "/"
+      weight = 1
+    [[languages.zh.menus.main]]
+      name = "研究方向"
+      url = "/research"
+      weight = 2
+    [[languages.zh.menus.main]]
+      name = "组员介绍"
+      url = "/people"
+      weight = 3
+    [[languages.zh.menus.main]]
+      name = "成果及论文"
+      url = "/publications"
+      weight = 4
+    [[languages.zh.menus.main]]
+      name = "课题组新闻"
+      url = "/news"
+      weight = 5
+    [[languages.zh.menus.main]]
+      name = "加入我们"
+      url = "/positions"
+      weight = 6
+    [[languages.zh.menus.main]]
+      name = "联系我们"
+      url = "/contact"
+      weight = 7
+
+  [languages.en]
+    languageCode = "en"
+    languageName = "English"
+    weight = 2
+    title = "Synthetic Electronics Laboratory"
+    description = "以化成器 | Towards electronics, in a chemistry way"
+    [languages.en.params]
+      labName = "Synthetic Electronics Laboratory"
+      labSlogan = "Towards electronics, in a chemistry way"
+      piName = "Qingqing Ji"
+      affiliation = "School of Physical Science and Technology, ShanghaiTech University"
+    [[languages.en.menus.main]]
+      name = "Home"
+      url = "/"
+      weight = 1
+    [[languages.en.menus.main]]
+      name = "Research"
+      url = "/en/research"
+      weight = 2
+    [[languages.en.menus.main]]
+      name = "People"
+      url = "/en/people"
+      weight = 3
+    [[languages.en.menus.main]]
+      name = "Publications"
+      url = "/en/publications"
+      weight = 4
+    [[languages.en.menus.main]]
+      name = "News"
+      url = "/en/news"
+      weight = 5
+    [[languages.en.menus.main]]
+      name = "Positions"
+      url = "/en/positions"
+      weight = 6
+    [[languages.en.menus.main]]
+      name = "Contact"
+      url = "/en/contact"
+      weight = 7
 
 [markup]
   [markup.highlight]
@@ -31,46 +98,25 @@ copyright = "© 2021–2026 合成电子学实验室 上海科技大学"
     lineNos = true
   [markup.goldmark]
     [markup.goldmark.renderer]
-    unsafe = true
+      unsafe = true
 
 [taxonomies]
   tag = "tags"
   category = "categories"
 
-[[menus.main]]
-  name = "首页"
-  url = "/"
-  weight = 1
-
-[[menus.main]]
-  name = "研究方向"
-  url = "/research"
-  weight = 2
-
-[[menus.main]]
-  name = "组员介绍"
-  url = "/people"
-  weight = 3
-
-[[menus.main]]
-  name = "成果及论文"
-  url = "/publications"
-  weight = 4
-
-[[menus.main]]
-  name = "课题组新闻"
-  url = "/news"
-  weight = 5
-
-[[menus.main]]
-  name = "加入我们"
-  url = "/positions"
-  weight = 6
-
-[[menus.main]]
-  name = "联系我们"
-  url = "/contact"
-  weight = 7
+[params]
+  logo = "/images/logo.png"
+  favicon = "/images/favicon.png"
+  piPhoto = "/images/pi.jpg"
+  heroImage = "/images/hero.jpg"
+  email = "jiqq@shanghaitech.edu.cn"
+  phone = "(021)-20684747"
+  address = "上海市浦东新区华夏中路393号物质学院6号楼503室"
+  addressEn = "Room 503, Building 6, School of Physical Science and Technology, 393 Huaxia Middle Road, Pudong, Shanghai 201210, China"
+  github = "https://github.com/synelab"
+  shanghaitech = "https://www.shanghaitech.edu.cn/"
+  spst = "https://spst.shanghaitech.edu.cn/"
+  visitorCount = true
 
 [outputs]
   home = ["HTML", "RSS"]
