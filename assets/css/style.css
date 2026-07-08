@@ -270,7 +270,7 @@ button:focus-visible {
     linear-gradient(135deg, rgba(26,54,93,0.82) 0%, rgba(44,82,130,0.82) 100%),
     url('/images/hero.jpg') center/cover no-repeat;
   color: #fff;
-  /* padding: 3rem 0; */
+  padding: 4rem 0;
   overflow: hidden;
 }
 
