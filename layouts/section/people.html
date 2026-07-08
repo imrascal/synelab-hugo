@@ -20,11 +20,11 @@
     <div class="card-grid" style="max-width: 400px;">
       {{ range $pi }}
       <div class="person-card">
-        {{ $name := .Title }}
+        {{ $name := .Params.name | default .Title }}
         {{ with .Params.photo }}
         <img src="{{ . }}" alt="{{ $name }}" class="photo" loading="lazy">
         {{ end }}
-        <div class="name"><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
+        <div class="name"><a href="{{ .RelPermalink }}">{{ $name }}</a></div>
         <div class="role">{{ .Params.title }}</div>
       </div>
       {{ end }}
