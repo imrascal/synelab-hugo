@@ -65,10 +65,7 @@
     {{ $pubData := .Site.Data.publications }}
     {{ $recentPubs := slice }}
     {{ with $pubData.since_2021 }}
-      {{ $total := len . }}
-      {{ $start := sub $total 5 }}
-      {{ if lt $start 0 }}{{ $start = 0 }}{{ end }}
-      {{ $recentPubs = after $start . }}
+      {{ $recentPubs = first 5 . }}
     {{ end }}
     {{ with $recentPubs }}
     <ul class="pub-list">
