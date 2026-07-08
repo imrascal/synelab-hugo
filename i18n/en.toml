@@ -122,3 +122,9 @@
 
 [news_activities]
   other = "Activities"
+
+[skip_to_content]
+  other = "Skip to main content"
+
+[quick_links]
+  other = "Quick Links"

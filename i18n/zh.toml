@@ -122,3 +122,9 @@
 
 [news_activities]
   other = "Activities"
+
+[skip_to_content]
+  other = "跳转到主要内容"
+
+[quick_links]
+  other = "快速链接"

@@ -14,22 +14,22 @@
       <div class="footer-section">
         <h3>{{ i18n "friendly_links" }}</h3>
         <ul class="footer-links">
-          <li><a href="https://www.shanghaitech.edu.cn/" target="_blank">上海科技大学</a></li>
-          <li><a href="https://spst.shanghaitech.edu.cn/" target="_blank">上科大物质科学与技术学院</a></li>
-          <li><a href="https://eshare.shanghaitech.edu.cn/" target="_blank">上科大仪器共享平台</a></li>
-          <li><a href="https://www.nature.com/subjects/two-dimensional-materials" target="_blank">Nature: 2D Materials</a></li>
-          <li><a href="https://pubs.acs.org/" target="_blank">ACS Publications</a></li>
-          <li><a href="https://materials.springer.com/" target="_blank">Springer Materials</a></li>
+          <li><a href="https://www.shanghaitech.edu.cn/" target="_blank" rel="noopener noreferrer">上海科技大学</a></li>
+          <li><a href="https://spst.shanghaitech.edu.cn/" target="_blank" rel="noopener noreferrer">上科大物质科学与技术学院</a></li>
+          <li><a href="https://eshare.shanghaitech.edu.cn/" target="_blank" rel="noopener noreferrer">上科大仪器共享平台</a></li>
+          <li><a href="https://www.nature.com/subjects/two-dimensional-materials" target="_blank" rel="noopener noreferrer">Nature: 2D Materials</a></li>
+          <li><a href="https://pubs.acs.org/" target="_blank" rel="noopener noreferrer">ACS Publications</a></li>
+          <li><a href="https://materials.springer.com/" target="_blank" rel="noopener noreferrer">Springer Materials</a></li>
         </ul>
       </div>
 
       <!-- Quick Links -->
       <div class="footer-section">
-        <h3>Quick Links</h3>
+        <h3>{{ i18n "quick_links" | default "Quick Links" }}</h3>
         <ul class="footer-links">
-          <li><a href="{{ relLangURL "research/" }}">Research</a></li>
-          <li><a href="{{ relLangURL "publications/" }}">Publications</a></li>
-          <li><a href="{{ relLangURL "positions/" }}">Positions</a></li>
+          <li><a href="{{ relLangURL "research/" }}">{{ i18n "research" }}</a></li>
+          <li><a href="{{ relLangURL "publications/" }}">{{ i18n "publications" }}</a></li>
+          <li><a href="{{ relLangURL "positions/" }}">{{ i18n "positions" }}</a></li>
         </ul>
       </div>
     </div>

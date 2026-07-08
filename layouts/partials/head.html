@@ -1,8 +1,4 @@
 {{/* Head extras partial - for additional meta tags per page */}}
-{{ if .IsHome }}
-{{ else if .Params.description }}
-<meta name="description" content="{{ .Params.description }}">
-{{ end }}
 {{ if .Params.keywords }}
 <meta name="keywords" content="{{ delimit .Params.keywords ", " }}">
 {{ end }}

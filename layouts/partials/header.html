@@ -3,7 +3,7 @@
   <div class="header-container">
     <div class="header-top">
       <div class="lab-brand">
-        <a href="{{ .Site.BaseURL }}">
+        <a href="{{ .Site.BaseURL | relLangURL }}">
           {{ if .Site.Params.logo }}
           <img src="{{ .Site.Params.logo }}" alt="{{ .Site.Params.labName }}" class="lab-logo">
           {{ end }}
@@ -16,21 +16,19 @@
       <div class="header-actions">
         {{ if gt (len site.Languages) 1 }}
         <div class="lang-switch">
-          {{ if eq .Site.Language.Lang "zh" }}
-          <a href="/en/" class="lang-link" lang="en">English</a>
-          {{ else }}
-          <a href="/" class="lang-link" lang="zh">中文</a>
+          {{ range .Translations }}
+          <a href="{{ .RelPermalink }}" class="lang-link" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }}</a>
           {{ end }}
         </div>
         {{ end }}
       </div>
     </div>
 
-    <nav class="main-nav">
-      <button class="nav-toggle" aria-label="Toggle navigation" onclick="this.parentElement.classList.toggle('nav-open')">
+    <nav class="main-nav" id="main-nav">
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-menu" onclick="const nav=this.parentElement,open=nav.classList.toggle('nav-open');this.setAttribute('aria-expanded',open)">
         <span class="hamburger"></span>
       </button>
-      <ul class="nav-list">
+      <ul class="nav-list" id="nav-menu">
         {{ $currentPage := . }}
         {{ range site.Menus.main }}
         <li class="nav-item">

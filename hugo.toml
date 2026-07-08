@@ -23,6 +23,9 @@ copyright = "© 2021–2026 Synthetic Electronics Laboratory, ShanghaiTech Unive
       labSlogan = "以化成器 | Towards electronics, in a chemistry way"
       piName = "纪清清"
       affiliation = "上海科技大学物质科学与技术学院"
+      hero_description = "合成电子学(Synthetic Electronics, SynE)旨在设计合成纳米乃至量子尺度半导体的杂化及异质结构，探索晶体管的尺寸极限，为后摩尔时代的微纳器件构筑提供一种可能的化学思路。由此践行系统材料学理念，追求材料器件化目标。"
+      pi_bio = "北京大学化学本科(2007-2011)及博士(2011-2016)，MIT电子工程博士后(2016-2020)；2021年1月入职上海科技大学物质学院担任课题组长、研究员，致力于化学途径实现下一代低维电子学。"
+      research_summary = "设计制备纳米乃至原子尺度的半导体杂化/异质结构，探索电子器件的微缩极限，以化学和材料工程途径实现下一代低维电子学。"
     [[languages.zh.menus.main]]
       name = "首页"
       url = "/"
@@ -58,11 +61,15 @@ copyright = "© 2021–2026 Synthetic Electronics Laboratory, ShanghaiTech Unive
     weight = 2
     title = "Synthetic Electronics Laboratory"
     description = "以化成器 | Towards electronics, in a chemistry way"
+    contentDir = "content/en"
     [languages.en.params]
       labName = "Synthetic Electronics Laboratory"
       labSlogan = "Towards electronics, in a chemistry way"
       piName = "Qingqing Ji"
       affiliation = "School of Physical Science and Technology, ShanghaiTech University"
+      hero_description = "Synthetic Electronics (SynE) aims to design and synthesize hybrid and heterostructures of semiconductors at the nanometer and quantum scales, exploring the size limits of transistors and providing a possible chemical approach to building micro/nano devices for the post-Moore era."
+      pi_bio = "B.S. and Ph.D. in Chemistry from Peking University (2007-2016), Postdoc in Electrical Engineering at MIT (2016-2020); joined ShanghaiTech University as PI in January 2021, dedicated to next-generation low-dimensional electronics via chemical approaches."
+      research_summary = "Design and synthesis of semiconductor hybrid/heterostructures at the nanometer and atomic scales, exploring the scaling limits of electronic devices via chemistry and materials engineering."
     [[languages.en.menus.main]]
       name = "Home"
       url = "/"
