@@ -11,7 +11,9 @@
 
   {{ .Content }}
 
-  {{ $pi := where .Pages ".Params.role" "eq" "pi" }}
+  {{ $people := where .Site.RegularPages "Section" "people" }}
+
+  {{ $pi := where $people ".Params.role" "eq" "pi" }}
   {{ if $pi }}
   <div class="section">
     <h2 class="section-title">{{ i18n "pi" }}</h2>
@@ -30,7 +32,7 @@
   </div>
   {{ end }}
 
-  {{ $currentMembers := where .Pages ".Params.alumni" "ne" true }}
+  {{ $currentMembers := where $people ".Params.alumni" "ne" true }}
   {{ $roles := slice "postdoc" "phd" "master" "undergraduate" "visitor" }}
   {{ range $roles }}
   {{ $roleMembers := where $currentMembers ".Params.role" "eq" . }}
@@ -53,7 +55,7 @@
   {{ end }}
   {{ end }}
 
-  {{ $alumni := where .Pages ".Params.alumni" "eq" true }}
+  {{ $alumni := where $people ".Params.alumni" "eq" true }}
   {{ if $alumni }}
   <div class="section">
     <h2 class="section-title">{{ i18n "alumni" }}</h2>
