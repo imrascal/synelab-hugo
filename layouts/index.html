@@ -69,19 +69,20 @@
     {{ with $recentPubs }}
     <ul class="pub-list">
       {{ range . }}
+      {{ $pub := . }}
       <li class="pub-item">
         <span class="pub-number">{{ .number }}</span>
         <div class="pub-content">
           <span class="pub-title">
             {{ with .url }}
-            <a href="{{ . }}" target="_blank">{{ $.title }}</a>
+            <a href="{{ . }}" target="_blank">{{ $pub.title }}</a>
             {{ else }}
-            {{ .title }}
+            {{ $pub.title }}
             {{ end }}
           </span>
           <span class="pub-authors"> — {{ .authors | replaceRE "\\*\\*(.+?)\\*\\*" "<strong>$1</strong>" | safeHTML }}</span><br>
           <span class="pub-journal">{{ .journal }}</span>
-          <span class="pub-year"> {{ .year }}</span>
+          <span class="pub-year"> {{ $pub.year }}</span>
         </div>
       </li>
       {{ end }}
