@@ -27,8 +27,16 @@
       <li class="pub-item">
         <span class="pub-number">{{ .number }}</span>
         <div class="pub-content">
-          <span class="pub-title">{{ .title }}</span><br>
-          <span class="pub-authors">{{ .authors }}</span><br>
+          <span class="pub-title">
+            {{ with .url }}
+            <a href="{{ . }}" target="_blank">{{ $.title }}</a>
+            {{ else }}
+            {{ .title }}
+            {{ end }}
+          </span><br>
+          <span class="pub-authors">
+            {{ .authors | replaceRE "\\*\\*(.+?)\\*\\*" "<strong>$1</strong>" | safeHTML }}
+          </span><br>
           {{ with .journal }}
           <span class="pub-journal">{{ . }}</span>
           {{ end }}
@@ -55,8 +63,16 @@
       <li class="pub-item">
         <span class="pub-number">{{ .number }}</span>
         <div class="pub-content">
-          <span class="pub-title">{{ .title }}</span><br>
-          <span class="pub-authors">{{ .authors }}</span><br>
+          <span class="pub-title">
+            {{ with .url }}
+            <a href="{{ . }}" target="_blank">{{ $.title }}</a>
+            {{ else }}
+            {{ .title }}
+            {{ end }}
+          </span><br>
+          <span class="pub-authors">
+            {{ .authors | replaceRE "\\*\\*(.+?)\\*\\*" "<strong>$1</strong>" | safeHTML }}
+          </span><br>
           {{ with .journal }}
           <span class="pub-journal">{{ . }}</span>
           {{ end }}
@@ -83,8 +99,16 @@
       <li class="pub-item">
         <span class="pub-number">{{ .number }}</span>
         <div class="pub-content">
-          <span class="pub-title">{{ .title }}</span><br>
-          <span class="pub-authors">{{ .authors }}</span><br>
+          <span class="pub-title">
+            {{ with .url }}
+            <a href="{{ . }}" target="_blank">{{ $.title }}</a>
+            {{ else }}
+            {{ .title }}
+            {{ end }}
+          </span><br>
+          <span class="pub-authors">
+            {{ .authors | replaceRE "\\*\\*(.+?)\\*\\*" "<strong>$1</strong>" | safeHTML }}
+          </span><br>
           <span class="pub-journal">{{ .journal }}</span>
           <span class="pub-year"> {{ .year }}</span>.
         </div>

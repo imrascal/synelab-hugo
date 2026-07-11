@@ -12,241 +12,285 @@
 #   - status:   论文状态（如 Submitted / In revision / Accepted，已发表则省略）
 
 # ============================================================
-# Since 2021 (37 papers, #1-#37)
+# Since 2021 (39 papers, #1-#39)
 # ============================================================
 
 since_2021:
 
+  - number: 39
+    title: "Revealing the Boltzmann Sigmoidal Activation by Iodide for Tunable Vanadium Doping in Monolayer MoS2"
+    authors: "**Yuanyuan Qiu#**, **Bin Hua#**, Zhenping Wang#, **Fei Hu**, **Yang Lu**, Marvin L. Cohen, Alex Zettl, Cong Su*, Young Woo Choi*, ****Qingqing Ji****"
+    journal: "Submitted"
+    year: 2026
+    status: "Submitted"
+
+  - number: 38
+    title: "Sub-Attojoule Switching at Ultralow Voltage in Two-Dimensional Bismuth Oxyiodide Memristor with Reconfigurable Volatility and Non-Volatility"
+    authors: "Chuxuan Xiao#, **Xinyan Wu#**, Luying Song#, Shuo Chen, Xiaohui Li, Ruihan Xu, Zhu Du, Jialiang Wu, Hang Sun, Yuhang Li, Wenbo Zhao, Kaichen Zhu, Wenwu Li, ****Qingqing Ji****, Jianping Shi*, Jun He*"
+    journal: "Submitted"
+    year: 2026
+    status: "Submitted"
+
   - number: 37
     title: "Chirality-dependent Electrical Characteristics of MoS2 Nanoscroll Transistors"
-    authors: "Yuanyuan Qiu#, Fei Hu#, Jialong Wang, Min Chen, Xiushuo Ma, Qingsheng Zeng, Chenyazhi Hu, Jun Li, Kecheng Cao, Yanfeng Zhang, Qingqing Ji*"
-    journal: "Submitted"
+    authors: "**Yuanyuan Qiu#**, **Fei Hu#**, Jialong Wang, Min Chen, **Xiushuo Ma**, **Qingsheng Zeng**, Chenyazhi Hu, Jun Li, Kecheng Cao, Yanfeng Zhang, ****Qingqing Ji****"
+    journal: "In revision"
     year: 2026
-    status: "Submitted"
+    status: "In revision"
 
   - number: 36
-    title: "Revealing the Boltzmann Sigmoidal Activation by Iodide for Tunable Vanadium Doping in Monolayer MoS2"
-    authors: "Yuanyuan Qiu#, Bin Hua#, Zhenping Wang#, Fei Hu, Yang Lu, Marvin L. Cohen, Alex Zettl, Cong Su*, Young Woo Choi*, Qingqing Ji*"
-    journal: "Submitted"
+    title: "Homo-Metal-Element Mediated Surface Modification of Sapphire for Robust Epitaxy of Wafer-Scale Monolayer TMDCs Single Crystals"
+    authors: "Jialong Wang, Yihao Zheng, **Qingsheng Zeng**, Yuhang Jing, You Peng, Tong Zhou, Li Yin, **Xinyan Wu**, Chenxi Zhang, Yujin Cheng, Haoxuan Ding, Xiyao Wang, Wei Wei, Li Lin, Jinlong Du, ****Qingqing Ji***, Jing Xia, Chenguang Qiu, Lian-Mao Peng, Yanfeng Zhang"
+    journal: "In revision"
     year: 2026
-    status: "Submitted"
+    status: "In revision"
 
   - number: 35
-    title: "Sub-Attojoule Switching at Ultralow Voltage in Two-Dimensional Bismuth Oxyiodide Memristor with Reconfigurable Volatility and Non-Volatility"
-    authors: "Chuxuan Xiao#, Xinyan Wu#, Luying Song#, Shuo Chen, Xiaohui Li, Ruihan Xu, Zhu Du, Jialiang Wu, Hang Sun, Yuhang Li, Wenbo Zhao, Kaichen Zhu, Wenwu Li, Qingqing Ji*, Jianping Shi*, Jun He*"
-    journal: "Submitted"
+    title: "Organic Metal Halogenide Netted Colloidal Quantum Dot Superlattice"
+    authors: "Haobo Wu, Yu Chen, Xin Wen, Weixuan Liu, Wenjia Zhou, Jiahui Du, Zihao Wang, Mingyu Ma, Hao Liang, Wei Zhou, Hao Wang, **Yue Lu**, Ziyao Ma, Yaxin Zhao, ****Qingqing Ji***, Baile Chen, Jun Jiang, Yi Yu, F. Pelayo García de Arquer, Fan Zheng, Zhijun Ning"
+    journal: "In revision"
     year: 2026
-    status: "Submitted"
+    status: "In revision"
 
   - number: 34
-    title: "Homo-Metal-Element Mediated Surface Modification of Sapphire for Robust Epitaxy of Wafer-Scale Monolayer TMDCs Single Crystals"
-    authors: "Jialong Wang, Yihao Zheng, Qingsheng Zeng, Yuhang Jing, You Peng, Tong Zhou, Li Yin, Xinyan Wu, Chenxi Zhang, Yujin Cheng, Haoxuan Ding, Xiyao Wang, Wei Wei, Li Lin, Jinlong Du, Qingqing Ji, Jing Xia, Chenguang Qiu, Lian-Mao Peng, Yanfeng Zhang"
+    title: "Enhanced Catalytic Activity for Hydrogen Evolution Reaction in Edge-Rich Monolayer Janus WSeS"
+    authors: "Yi Zhou#, **Xinyan Wu#**, You Peng#, Biao Yuan, Lingjun Qi, Hanzhi Huang, Hongzhi Shen, Jinkun Liu, Tong Zhou, Zhao Zhang, Yu Han, Yanfeng Zhang*, ****Qingqing Ji****, Yunfan Guo*"
     journal: "In revision"
     year: 2026
     status: "In revision"
 
   - number: 33
-    title: "Organic Metal Halogenide Netted Colloidal Quantum Dot Superlattice"
-    authors: "Haobo Wu, Yu Chen, Xin Wen, Weixuan Liu, Wenjia Zhou, Jiahui Du, Zihao Wang, Mingyu Ma, Hao Liang, Wei Zhou, Hao Wang, Yue Lu, Ziyao Ma, Yaxin Zhao, Qingqing Ji, Baile Chen, Jun Jiang, Yi Yu, F. Pelayo García de Arquer, Fan Zheng, Zhijun Ning"
-    journal: "In revision"
+    title: "Programmable Anomalous Photovoltaics Enabled by Light-electric Dual-Field Control"
+    authors: "Tonghuan Fu, Kejun Bu, Genchang Gou, Yuqiang Fang, Kun Yang, Yiming Wang, Xuzhou Sun, Songhao Guo, Yifan Zhang, Xingyu Chen, Yuhong Mao, Hua Tan, **Yuanyuan Qiu**, Yiran Ma, Shengcai Zhu, ****Qingqing Ji***, Yiqiang Zhan, Wenpei Gao, Qingyang Hu, Xing Zhou, Tianyou Zhai, Wenge Yang, Fuqiang Huang, Xujie Lü"
+    journal: "J. Am. Chem. Soc. 2026"
     year: 2026
-    status: "In revision"
+    url: "https://pubs.acs.org/doi/10.1021/jacs.6c07032"
 
   - number: 32
-    title: "Enhanced Catalytic Activity for Hydrogen Evolution Reaction in Edge-Rich Monolayer Janus WSeS"
-    authors: "Yi Zhou#, Xinyan Wu#, You Peng#, Biao Yuan, Lingjun Qi, Hanzhi Huang, Hongzhi Shen, Jinkun Liu, Tong Zhou, Zhao Zhang, Yu Han, Yanfeng Zhang*, Qingqing Ji*, Yunfan Guo*"
-    journal: "In revision"
-    year: 2026
-    status: "In revision"
-
-  - number: 31
-    title: "Programmable Anomalous Photovoltaics Enabled by Light-electric Dual-Field Control"
-    authors: "Tonghuan Fu, Kejun Bu, Genchang Gou, Yuqiang Fang, Kun Yang, Yiming Wang, Xuzhou Sun, Songhao Guo, Yifan Zhang, Xingyu Chen, Yuhong Mao, Hua Tan, Yuanyuan Qiu, Yiran Ma, Shengcai Zhu, Qingqing Ji, Yiqiang Zhan, Wenpei Gao, Qingyang Hu, Xing Zhou, Tianyou Zhai, Wenge Yang, Fuqiang Huang, Xujie Lü"
-    journal: "J. Am. Chem. Soc. 2026, Accepted"
-    year: 2026
-    status: "Accepted"
-
-  - number: 30
     title: "Interlayer Electronic Decoupling Unlocks Giant Birefringence in π-Conjugated Metal–Organic Frameworks"
-    authors: "Jia-Xiang Zhang, Xinyan Wu, Wei-Shan Li, Haolin Zhong, Jinkun Guo, Qingsheng Zeng, Mao-Yin Ran, Ze-Fan Yao, Qingqing Ji*, Jin-Hu Dou*"
+    authors: "Jia-Xiang Zhang, **Xinyan Wu**, Wei-Shan Li, Haolin Zhong, Jinkun Guo, **Qingsheng Zeng**, Mao-Yin Ran, Ze-Fan Yao, ****Qingqing Ji****, Jin-Hu Dou*"
     journal: "Adv. Mater. 2026"
     year: 2026
     doi: "10.1002/adma.73757"
+    url: "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.73757"
 
-  - number: 29
+  - number: 31
     title: "Programming Stacking Order in Conducting Van der Waals Metal–Organic Frameworks through Ligand Aggregation"
-    authors: "Yunlong Fan, Jinkun Guo, Ze-Fan Yao, Zhenghan Zhang, Haoyang Zhang, Xing Huang, Zhichao Pan, Luming Yang, Chao Ma, Xinyan Wu, Khoa N. Le, Tianyang Chen, Zhichen Xu, Ling Zhang, Hao Chen, Tongyang Zhao, Shuo Qiao, Tingsong Zhang, Qingqing Ji, Yu-Qing Zheng, Lei Sun, Grigorii Skorupskii, Maxx Q. Arguilla, Yuanping Yi, Christopher H. Hendon, Mircea Dincă, Jian Li, Jin-Hu Dou"
+    authors: "Yunlong Fan, Jinkun Guo, Ze-Fan Yao, Zhenghan Zhang, Haoyang Zhang, Xing Huang, Zhichao Pan, Luming Yang, Chao Ma, **Xinyan Wu**, Khoa N. Le, Tianyang Chen, Zhichen Xu, Ling Zhang, Hao Chen, Tongyang Zhao, **Shuo Qiao**, Tingsong Zhang, ****Qingqing Ji***, Yu-Qing Zheng, Lei Sun, Grigorii Skorupskii, Maxx Q. Arguilla, Yuanping Yi, Christopher H. Hendon, Mircea Dincă, Jian Li, Jin-Hu Dou"
     journal: "Nat. Chem. 2026"
     year: 2026
     doi: "10.1038/s41557-026-02180-z"
+    url: "https://www.nature.com/articles/s41557-026-02180-z"
 
-  - number: 28
+  - number: 30
     title: "A Temporal Decoupling Strategy for Controlled Synthesis of 2D TbOBr and Moiré Superlattices"
-    authors: "Jing Zhang#, Fei Hu#, Chenxing Li, Kangjie Liu, Jiuxiang Dai, Ang Li, Panqi Huang, Mo Cheng, Zhitong Jin, Nannan Mao, Qingqing Ji, Lin Zhou"
+    authors: "Jing Zhang#, **Fei Hu#**, Chenxing Li, Kangjie Liu, Jiuxiang Dai, Ang Li, Panqi Huang, Mo Cheng, Zhitong Jin, Nannan Mao, ****Qingqing Ji***, Lin Zhou"
     journal: "J. Am. Chem. Soc. 2026, 148, 22971-22978"
     year: 2026
+    url: "https://pubs.acs.org/doi/10.1021/jacs.6c04335"
 
-  - number: 27
+  - number: 29
     title: "Ultralow Temperature Synthesis of Two-Dimensional Anisotropic FeOCl and Quasi-One-Dimensional Moiré Superlattices"
-    authors: "Zemin Zheng, Jiuxiang Dai, Ang Li, Meng Gao, Yuanyuan Qiu, Xingxing Zhang, Zhitong Jin, Mo Cheng, Hongshuai Cao, Qingqing Ji, Wu Zhou, Teng Yang, Lin Zhou"
+    authors: "Zemin Zheng, Jiuxiang Dai, Ang Li, Meng Gao, **Yuanyuan Qiu**, Xingxing Zhang, Zhitong Jin, Mo Cheng, Hongshuai Cao, ****Qingqing Ji***, Wu Zhou, Teng Yang, Lin Zhou"
     journal: "ACS Nano 2026, 20, 5973-5982"
     year: 2026
+    url: "https://pubs.acs.org/doi/full/10.1021/acsnano.5c19178"
 
-  - number: 26
+  - number: 28
     title: "Co-Field-Reconciled Direct Growth of 6-Inch Monolayer Graphene"
-    authors: "Feifan Liu#, Li Jia#, Aoran Li#, Yinghan Li, Wenze Wei, Yuanyuan Qiu, Ziang Chen, Kaixuan Zhou, Ting Cheng*, Qingqing Ji*, Zhongfan Liu*, Jingyu Sun*"
+    authors: "Feifan Liu#, Li Jia#, **Aoran Li#**, Yinghan Li, Wenze Wei, **Yuanyuan Qiu**, Ziang Chen, Kaixuan Zhou, Ting Cheng*, ****Qingqing Ji****, Zhongfan Liu*, Jingyu Sun*"
     journal: "Natl. Sci. Rev. 2026, 13, nwaf562"
     year: 2026
+    url: "https://doi.org/10.1093/nsr/nwaf562"
 
-  - number: 25
+  - number: 27
     title: "Core-Shell Quantum Dots-Enabled Monolayer MoS2 Memories with High Endurance"
-    authors: "Yuanyuan Qiu#, Zhuo Zhao#, Shuo Qiao, Yue Lu, Chaodan Pu*, Qingqing Ji*"
+    authors: "**Yuanyuan Qiu#**, Zhuo Zhao#, **Shuo Qiao**, **Yue Lu**, Chaodan Pu*, ****Qingqing Ji****"
     journal: "Matter 2026, 9, 102488"
     year: 2026
+    url: "https://www.cell.com/matter/fulltext/S2590-2385(25)00531-4"
 
-  - number: 24
+  - number: 26
     title: "Asymmetrical Substitution Manipulates Stacking Modes in 2D Conductive MOF Crystals"
-    authors: "Yi Liu, Huiying Yao, Haoyang Zhang, Chao Ma, Jinkun Guo, Yunlong Fan, Hao Chen, Xinyan Wu, Luming Yang, Xing Huang, Tianyang Chen, Qingqing Ji, Zefan Yao, Jian Li, Jinhu Dou"
+    authors: "Yi Liu, Huiying Yao, Haoyang Zhang, Chao Ma, Jinkun Guo, Yunlong Fan, Hao Chen, **Xinyan Wu**, Luming Yang, Xing Huang, Tianyang Chen, ****Qingqing Ji***, Zefan Yao, Jian Li, Jinhu Dou"
     journal: "J. Am. Chem. Soc. 2025, 147, 48127-48135"
     year: 2025
+    url: "https://pubs.acs.org/doi/10.1021/jacs.5c15827"
 
-  - number: 23
+  - number: 25
     title: "Dynamic Sulfur-Rich Network from Silicone Industry Waste"
-    authors: "Zixiao Wang#, Yuanyuan Qiu#, Zheju Cheng, Honglu Huang, Yang Sui, Xin Liu, Yue Lu, Qingqing Ji*, Jiajun Yan*"
+    authors: "Zixiao Wang#, **Yuanyuan Qiu#**, Zheju Cheng, Honglu Huang, Yang Sui, Xin Liu, **Yue Lu**, ****Qingqing Ji****, Jiajun Yan*"
     journal: "Green Chem. 2025, 27, 13089-13098"
     year: 2025
+    url: "https://pubs.rsc.org/en/Content/ArticleLanding/2025/GC/D5GC02864G"
 
-  - number: 22
+  - number: 24
     title: "Reversible Manipulations of Triangular-Shaped Mirror Twin Boundary Loops in Ultrathin NiTe2"
-    authors: "Yujin Cheng, Xinyan Wu, Haoxuan Ding, Wenzhi Quan, Tong Zhou, Jialong Wang, You Peng, Xiyao Wang, Lili Wang, Qingqing Ji*, Yanfeng Zhang*"
+    authors: "Yujin Cheng, **Xinyan Wu**, Haoxuan Ding, Wenzhi Quan, Tong Zhou, Jialong Wang, You Peng, Xiyao Wang, Lili Wang, ****Qingqing Ji****, Yanfeng Zhang*"
     journal: "Nano Lett. 2025, 25, 14107-14114"
     year: 2025
+    url: "https://pubs.acs.org/doi/full/10.1021/acs.nanolett.5c03506"
 
-  - number: 21
-    title: "Wafer-Scale Synthesis of Monolayer Transition Metal Dichalcogenides Single Crystals via Designed “Trojan” Metal Precursor Supply Route"
-    authors: "Jingyi Hu, Jialong Wang, Wenzhi Quan, Xinyan Wu, Yu Pan, Yue Lu, Yujin Cheng, Xiyao Wang, You Peng, Tong Zhou, Haoxuan Ding, Qingqing Ji, Yu Ye, Yanfeng Zhang"
+  - number: 23
+    title: "Wafer-Scale Synthesis of Monolayer Transition Metal Dichalcogenides Single Crystals via Designed \"Trojan\" Metal Precursor Supply Route"
+    authors: "Jingyi Hu, Jialong Wang, Wenzhi Quan, **Xinyan Wu**, Yu Pan, **Yue Lu**, Yujin Cheng, Xiyao Wang, You Peng, Tong Zhou, Haoxuan Ding, ****Qingqing Ji***, Yu Ye, Yanfeng Zhang"
     journal: "Adv. Funct. Mater. 2025, 36, e14502"
     year: 2025
+    url: "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202514502"
 
-  - number: 20
+  - number: 22
     title: "Impact of Interfacial Configurations on the Growth of Few-Layer NbSe2 on Sapphire"
-    authors: "Shuaishuai Yin#, Renshu Wang#, Lie Wang, Yang Liu, Chong Zhu, Zhenjia Zhou*, Qingqing Ji*, Libo Gao*, Xuerong Liu*"
+    authors: "Shuaishuai Yin#, Renshu Wang#, Lie Wang, Yang Liu, Chong Zhu, Zhenjia Zhou*, ****Qingqing Ji****, Libo Gao*, Xuerong Liu*"
     journal: "Nano Lett. 2025, 25, 10603-10610"
     year: 2025
+    url: "https://pubs.acs.org/doi/10.1021/acs.nanolett.5c02390"
 
-  - number: 19
+  - number: 21
     title: "Phase Modulation of 2D Semiconducting GaTe from Hexagonal to Monoclinic through Layer Thickness Control and Strain Engineering"
-    authors: "Wenzhi Quan#, Xinyan Wu#, Yujin Cheng, Yue Lu, Qilong Wu, Haoxuan Ding, Jingyi Hu, Jialong Wang, Tong Zhou, Qingqing Ji*, Yanfeng Zhang*"
+    authors: "Wenzhi Quan#, **Xinyan Wu#**, Yujin Cheng, **Yue Lu**, Qilong Wu, Haoxuan Ding, Jingyi Hu, Jialong Wang, Tong Zhou, ****Qingqing Ji****, Yanfeng Zhang*"
     journal: "Nano Lett. 2025, 25, 6614-6621"
     year: 2025
+    url: "https://pubs.acs.org/doi/10.1021/acs.nanolett.5c00626"
 
-  - number: 18
+  - number: 20
     title: "Mechanical Impacts of Random Defects in Monolayer MoS2 by Stochastic Finite Element Modeling"
-    authors: "Liu Chu*, Eduardo Souza de Cursi, Qingqing Ji*"
+    authors: "Liu Chu*, Eduardo Souza de Cursi, ****Qingqing Ji****"
     journal: "ACS Appl. Nano Mater. 2025, 8, 4060-4066"
     year: 2025
+    url: "https://pubs.acs.org/doi/10.1021/acsanm.4c06999"
 
-  - number: 17
+  - number: 19
     title: "Epitaxial Growth of Monolayer WS2 Single Crystals on Au(111) Towards Direct Surface-Enhanced Raman Spectroscopy Detection"
-    authors: "Jialong Wang, Yue Lu, Wenzhi Quan, Jingyi Hu, Pengfei Yang, Ge Song, Jiatian Fu, You Peng, Lianming Tong, Qingqing Ji, Yanfeng Zhang"
+    authors: "Jialong Wang, **Yue Lu**, Wenzhi Quan, Jingyi Hu, Pengfei Yang, Ge Song, Jiatian Fu, You Peng, Lianming Tong, ****Qingqing Ji***, Yanfeng Zhang"
     journal: "ACS Nano 2024, 18, 26359-26368"
     year: 2024
+    url: "https://pubs.acs.org/doi/10.1021/acsnano.4c09187"
 
-  - number: 16
+  - number: 18
     title: "Dopant-Mediated Carrier Tunneling in Short-Channel Two-Dimensional Transistors"
-    authors: "Yue Lu#, Chenyu Li#, Shenbo Yang, Mingxuan Yuan, Shuo Qiao, Qingqing Ji*"
+    authors: "**Yue Lu#**, **Chenyu Li#**, Shenbo Yang, **Mingxuan Yuan**, **Shuo Qiao**, ****Qingqing Ji****"
     journal: "Mater. Chem. Front. 2024, 8, 3300-3307"
     year: 2024
+    url: "https://doi.org/10.1039/D4QM00494A"
 
-  - number: 15
+  - number: 17
     title: "Substantial Energy Band Modulation of Semiconducting Hexagonal GaTe Quantum Wells by Layer Thickness and Mirror Twin Boundaries"
-    authors: "Wenzhi Quan#, Yue Lu#, Qilong Wu, Yujin Cheng, Jingyi Hu, Zehui Zhang, Jialong Wang, Zhenzhu Li, Lili Wang, Qingqing Ji*, Yanfeng Zhang*"
+    authors: "Wenzhi Quan#, **Yue Lu#**, Qilong Wu, Yujin Cheng, Jingyi Hu, Zehui Zhang, Jialong Wang, Zhenzhu Li, Lili Wang, ****Qingqing Ji****, Yanfeng Zhang*"
     journal: "ACS Nano 2024, 18, 20591-20599"
     year: 2024
+    url: "https://doi.org/10.1021/acsnano.4c05858"
 
-  - number: 14
+  - number: 16
     title: "Unveiling Spatiotemporal Diffusion of Hot Carriers Influenced by Spatial Non-uniform Hot Phonon Bottleneck Effect in Monolayer MoS2"
-    authors: "Xiaofan Wei#, Zihan Wang#, Ziyu Wang#, Yue Lu, Qingqing Ji*, Weimin Liu*"
+    authors: "Xiaofan Wei#, **Zihan Wang#**, Ziyu Wang#, **Yue Lu**, ****Qingqing Ji****, Weimin Liu*"
     journal: "Nano Lett. 2024, 24, 9269-9275"
     year: 2024
+    url: "https://pubs.acs.org/doi/10.1021/acs.nanolett.4c02059"
 
-  - number: 13
+  - number: 15
     title: "Large-Domain Monolayer MoS2 Synthesis via Local-Feeding Metalorganic Chemical Vapor Deposition"
-    authors: "Yan Yang#, Yuanyuan Qiu#, Bin Hua#, Jiliang Cai, Yile Zhang, Kecheng Cao, Xiaoqin Shen*, Qingqing Ji*"
+    authors: "**Yan Yang#**, **Yuanyuan Qiu#**, **Bin Hua#**, Jiliang Cai, Yile Zhang, Kecheng Cao, Xiaoqin Shen*, ****Qingqing Ji****"
     journal: "ACS Mater. Lett. 2024, 6, 2802-2808"
     year: 2024
+    url: "https://doi.org/10.1021/acsmaterialslett.4c00642"
 
-  - number: 12
+  - number: 14
     title: "In-Plane Ferroelectrics Enabling Reduced Hysteresis in Monolayer MoS2 Transistors"
-    authors: "Mingxuan Yuan, Binbin Zhang, Jiliang Cai, Jiaqi Zhang, Yue Lu, Shuo Qiao, Kecheng Cao*, Hao Deng*, Qingqing Ji*"
+    authors: "**Mingxuan Yuan**, Binbin Zhang, Jiliang Cai, Jiaqi Zhang, **Yue Lu**, **Shuo Qiao**, Kecheng Cao*, Hao Deng*, ****Qingqing Ji****"
     journal: "Carbon Neutral. 2024, 3, 700-709"
     year: 2024
+    url: "https://doi.org/10.1002/cnl2.148"
 
-  - number: 11
+  - number: 13
     title: "Large-Substrate-Terrace Confined Growth of Arrayed Ultrathin PtSe2 Ribbons on Step-Bunched Vicinal Au(001) Facets Towards Electrocatalytic Applications"
-    authors: "Jiatian Fu#, Chenyu Li#, Qilong Wu, Jingyi Hu, Yue Lu, Wenzhi Quan, You Peng, Xiangzhuo Wang, Pengfei Yang, Yahuan Huan, Qingqing Ji, Yanfeng Zhang"
+    authors: "Jiatian Fu#, **Chenyu Li#**, Qilong Wu, Jingyi Hu, **Yue Lu**, Wenzhi Quan, You Peng, Xiangzhuo Wang, Pengfei Yang, Yahuan Huan, ****Qingqing Ji***, Yanfeng Zhang"
     journal: "Small 2024, 202401770"
     year: 2024
+    url: "https://onlinelibrary.wiley.com/doi/10.1002/smll.202401770"
 
-  - number: 10
+  - number: 12
     title: "One-Dimensional MoS2 Nanoscrolls as Miniaturized Memories"
-    authors: "Shuo Qiao, Yuanyuan Qiu, Yue Lu, Zihan Wang, Mingxuan Yuan, Qingqing Ji*"
+    authors: "**Shuo Qiao**, **Yuanyuan Qiu**, **Yue Lu**, **Zihan Wang**, **Mingxuan Yuan**, ****Qingqing Ji****"
     journal: "Nano Lett. 2024, 24, 4498-4504"
     year: 2024
+    url: "https://pubs.acs.org/doi/10.1021/acs.nanolett.4c00423"
 
-  - number: 9
+  - number: 11
     title: "Spontaneous Line Defect-Induced Co4Te7 Superlattices on SrTO3(001) Featuring Flat Bands"
-    authors: "Wenzhi Quan, Yue Lu, Qilong Wu, Chanjuan Shang, Chenyu Li, Jingyi Hu, Jialong Wang, Si Zhou, Jijun Zhao, Qingqing Ji*, Yanfeng Zhang*"
+    authors: "Wenzhi Quan, **Yue Lu**, Qilong Wu, Chanjuan Shang, **Chenyu Li**, Jingyi Hu, Jialong Wang, Si Zhou, Jijun Zhao, ****Qingqing Ji****, Yanfeng Zhang*"
     journal: "Adv. Funct. Mater. 2024, 34, 2315831"
     year: 2024
+    url: "https://onlinelibrary.wiley.com/doi/10.1002/adfm.202315831"
 
-  - number: 8
+  - number: 10
     title: "Stoichiometry-Tunable Synthesis and Magnetic Property Exploration of Two-dimensional Chromium Selenides"
-    authors: "Fangfang Cui, Kun He, Shengqiang Wu, Hongmei Zhang, Yue Lu, Zhenzhu Li, Jingyi Hu, Shuangyuan Pan, Lijie Zhu, Yahuan Huan, Bo Li, Xidong Duan, Qingqing Ji*, Xiaoxu Zhao*, Yanfeng Zhang*"
+    authors: "Fangfang Cui, Kun He, Shengqiang Wu, Hongmei Zhang, **Yue Lu**, Zhenzhu Li, Jingyi Hu, Shuangyuan Pan, Lijie Zhu, Yahuan Huan, Bo Li, Xidong Duan, ****Qingqing Ji****, Xiaoxu Zhao*, Yanfeng Zhang*"
     journal: "ACS Nano 2024, 18, 6276-6285"
     year: 2024
+    url: "https://pubs.acs.org/doi/10.1021/acsnano.3c10609"
 
-  - number: 7
+  - number: 9
     title: "Surface Heterojunction Based on n-Type Low Dimensional Perovskite Film for Highly Efficient Perovskite Tandem Solar Cells"
-    authors: "Xianyuan Jiang, Qilin Zhou, Yue Lu, Hao Liang, Qi Wei, Mengling Pan, Wenzhuo Li, Xin Wen, Xingzhi Wang, Wei Zhou, Danni Yu, Hao Wang, Ni Yin, Hao Chen, Hansheng Li, Ting Pan, Mingyu Ma, Gaoqi Liu, Wenjia Zhou, Zhenhuang Su, Qi Chen, Fengjia Fan, Fan Zheng, Xingyu Gao, Qingqing Ji*, Zhijun Ning*"
+    authors: "Xianyuan Jiang, Qilin Zhou, **Yue Lu**, Hao Liang, Qi Wei, Mengling Pan, Wenzhuo Li, Xin Wen, Xingzhi Wang, Wei Zhou, Danni Yu, Hao Wang, Ni Yin, Hao Chen, Hansheng Li, Ting Pan, Mingyu Ma, Gaoqi Liu, Wenjia Zhou, Zhenhuang Su, Qi Chen, Fengjia Fan, Fan Zheng, Xingyu Gao, ****Qingqing Ji****, Zhijun Ning*"
     journal: "Natl. Sci. Rev. 2024, 11, nwae055"
     year: 2024
+    url: "https://academic.oup.com/nsr/advance-article/doi/10.1093/nsr/nwae055/7607368"
 
-  - number: 6
+  - number: 8
     title: "Electron-Withdrawing Organic Ligand for High Efficiency All-Perovskite Tandem Solar Cells"
-    authors: "Danni Yu, Mengling Pan, Gaoqi Liu, Xianyuan Jiang, Xin Wen, Wenzhuo Li, Shaojie Chen, Wenjia Zhou, Hao Wang, Yue Lu, Mingyu Ma, Zihao Zang, Peihong Cheng, Qingqing Ji, Fan Zheng, Zhijun Ning"
+    authors: "Danni Yu, Mengling Pan, Gaoqi Liu, Xianyuan Jiang, Xin Wen, Wenzhuo Li, Shaojie Chen, Wenjia Zhou, Hao Wang, **Yue Lu**, Mingyu Ma, Zihao Zang, Peihong Cheng, ****Qingqing Ji***, Fan Zheng, Zhijun Ning"
     journal: "Nat. Energy 2024, 9, 298-307"
     year: 2024
+    url: "https://www.nature.com/articles/s41560-023-01441-2"
 
-  - number: 5
+  - number: 7
     title: "Highly Stable Vertically Oriented 2H-NbS2 Nanosheets on Carbon Nanotube Films towards Superior Electrocatalytic Activity"
-    authors: "You Peng, Lijie Zhu, Chenyu Li, Jingyi Hu, Yue Lu, Jiatian Fu, Fangfang Cui, Xiangzhuo Wang, Anyuan Cao, Qingqing Ji, Yahuan Huan, Yanfeng Zhang"
+    authors: "You Peng, Lijie Zhu, **Chenyu Li**, Jingyi Hu, **Yue Lu**, Jiatian Fu, Fangfang Cui, Xiangzhuo Wang, Anyuan Cao, ****Qingqing Ji***, Yahuan Huan, Yanfeng Zhang"
     journal: "Adv. Energy Mater. 2024, 14, 2302510"
     year: 2024
+    url: "https://onlinelibrary.wiley.com/doi/10.1002/aenm.202302510"
 
-  - number: 4
+  - number: 6
     title: "Synthetic Two-Dimensional Electronics for Transistor Scaling"
-    authors: "Zihan Wang#, Yan Yang#, Bin Hua, Qingqing Ji*"
+    authors: "**Zihan Wang#**, **Yan Yang#**, **Bin Hua**, ****Qingqing Ji****"
     journal: "Front. Phys. 2023, 18, 63601"
     year: 2023
+    url: "https://journal.hep.com.cn/fop/EN/10.1007/s11467-023-1305-3"
 
-  - number: 3
+  - number: 5
     title: "Synergistic Photon Management and Strain-Induced Band Gap Engineering of Two-Dimensional MoS2 Using Semimetal Composite Nanostructures"
-    authors: "Xiaoxue Gao, Sidan Fu, Tao Fang, Xiaobai Yu, Haozhe Wang, Qingqing Ji, Jing Kong, Xiaoxin Wang, Jifeng Liu"
+    authors: "Xiaoxue Gao, Sidan Fu, Tao Fang, Xiaobai Yu, Haozhe Wang, ****Qingqing Ji***, Jing Kong, Xiaoxin Wang, Jifeng Liu"
     journal: "ACS Appl. Mater. Interfaces 2023, 15, 23564–23572"
     year: 2023
+    url: "https://pubs.acs.org/doi/full/10.1021/acsami.2c23163"
 
-  - number: 2
+  - number: 4
     title: "Soft-Lock Drawing of Super-Aligned Carbon Nanotube Bundles for Nanometer Electrical Contacts"
-    authors: "Yunfan Guo, Enzheng Shi, Jiadi Zhu, Pin-Chun Shen, Jiangtao Wang, Yuxuan Lin, Yunwei Mao, Shibin Deng, Baini Li, Ji-Hoon Park, Ang-Yu Lu, Shuchen Zhang, Qingqing Ji, Zhe Li, Chenguang Qiu, Song Qiu, Qingwen Li, Letian Dou, Yue Wu, Jin Zhang, Tomás Palacios, Anyuan Cao & Jing Kong"
+    authors: "Yunfan Guo, Enzheng Shi, Jiadi Zhu, Pin-Chun Shen, Jiangtao Wang, Yuxuan Lin, Yunwei Mao, Shibin Deng, Baini Li, Ji-Hoon Park, Ang-Yu Lu, Shuchen Zhang, ****Qingqing Ji***, Zhe Li, Chenguang Qiu, Song Qiu, Qingwen Li, Letian Dou, Yue Wu, Jin Zhang, Tomás Palacios, Anyuan Cao & Jing Kong"
     journal: "Nat. Nanotechnol. 2022, 17, 278–284"
     year: 2022
+    url: "https://www.nature.com/articles/s41565-021-01034-8"
 
-  - number: 1
+  - number: 3
     title: "Revealing the Brønsted-Evans-Polanyi Relation in Halide-Activated Fast MoS2 Growth Towards Millimeter-Sized 2D Crystals"
-    authors: "Qingqing Ji, Cong Su, Nannan Mao, Xuezeng Tian, Juan-Carlos Idrobo, Jianwei Miao, William A. Tisdale, Alex Zettl, Ju Li, Jing Kong"
+    authors: "****Qingqing Ji***, Cong Su, Nannan Mao, Xuezeng Tian, Juan-Carlos Idrobo, Jianwei Miao, William A. Tisdale, Alex Zettl, Ju Li, Jing Kong"
     journal: "Sci. Adv. 2021, 7, eabj3274"
     year: 2021
+    url: "https://www.science.org/doi/10.1126/sciadv.abj3274"
+
+  - number: 2
+    title: "Anomalous Heavy Doping in Chemical Vapor Deposited Titanium Trisulfide Nanostructures"
+    authors: "Mengxing Sun, Jingzhen Li, ****Qingqing Ji****, Yuxuan Lin, Jiangtao Wang, Cong Su, Ming-Hui Chiu, Yilin Sun, Huayan Si, Tomás Palacios, Jing Lu, Dan Xie*, Jing Kong*"
+    journal: "Phys. Rev. Mater. 2021, 5, 094002"
+    year: 2021
+    url: "https://journals.aps.org/prmaterials/abstract/10.1103/PhysRevMaterials.5.094002"
+
+  - number: 1
+    title: "Designing Artificial Two-Dimensional Landscapes via Atomic-Layer Substitution"
+    authors: "Yunfan Guo, Yuxuan Lin, Kaichen Xie, Biao Yuan, Jiadi Zhu, Pin-Chun Shen, Ang-Yu Lu, Cong Su, Enzheng Shi, Kunyan Zhang, Changan HuangFu, Haowei Xu, Zhengyang Cai, Ji-Hoon Park, ****Qingqing Ji***, Jiangtao Wang, Xiaochuan Dai, Xuezeng Tian, Shengxi Huang, Letian Dou, Liying Jiao, Ju Li, Yi Yu, Juan-Carlos Idrobo, Ting Cao, Tomás Palacios, Jing Kong"
+    journal: "Proc. Natl. Acad. Sci. USA 2021, 118, e2106124118"
+    year: 2021
+    url: "https://www.pnas.org/content/118/32/e2106124118"
 
 # ============================================================
 # Before 2021 (50 papers, #1-#50)
@@ -256,301 +300,301 @@ before_2021:
 
   - number: 50
     title: "Anomalous Heavy Doping in Chemical Vapor Deposited Titanium Trisulfide Nanostructures"
-    authors: "Mengxing Sun, Jingzhen Li, Qingqing Ji*, Yuxuan Lin, Jiangtao Wang, Cong Su, Ming-Hui Chiu, Yilin Sun, Huayan Si, Tomás Palacios, Jing Lu, Dan Xie*, Jing Kong*"
+    authors: "Mengxing Sun, Jingzhen Li, **Qingqing Ji**, Yuxuan Lin, Jiangtao Wang, Cong Su, Ming-Hui Chiu, Yilin Sun, Huayan Si, Tomás Palacios, Jing Lu, Dan Xie*, Jing Kong*"
     journal: "Phys. Rev. Mater. 2021, 5, 094002"
     year: 2021
 
   - number: 49
     title: "Designing Artificial Two-Dimensional Landscapes via Atomic-Layer Substitution"
-    authors: "Yunfan Guo, Yuxuan Lin, Kaichen Xie, Biao Yuan, Jiadi Zhu, Pin-Chun Shen, Ang-Yu Lu, Cong Su, Enzheng Shi, Kunyan Zhang, Changan HuangFu, Haowei Xu, Zhengyang Cai, Ji-Hoon Park, Qingqing Ji, Jiangtao Wang, Xiaochuan Dai, Xuezeng Tian, Shengxi Huang, Letian Dou, Liying Jiao, Ju Li, Yi Yu, Juan-Carlos Idrobo, Ting Cao, Tomás Palacios, Jing Kong"
+    authors: "Yunfan Guo, Yuxuan Lin, Kaichen Xie, Biao Yuan, Jiadi Zhu, Pin-Chun Shen, Ang-Yu Lu, Cong Su, Enzheng Shi, Kunyan Zhang, Changan HuangFu, Haowei Xu, Zhengyang Cai, Ji-Hoon Park, **Qingqing Ji**, Jiangtao Wang, Xiaochuan Dai, Xuezeng Tian, Shengxi Huang, Letian Dou, Liying Jiao, Ju Li, Yi Yu, Juan-Carlos Idrobo, Ting Cao, Tomás Palacios, Jing Kong"
     journal: "Proc. Natl. Acad. Sci. USA 2021, 118, e2106124118"
     year: 2021
 
   - number: 48
     title: "Enhancement of van der Waals Interlayer Coupling Through Polar Janus MoSSe"
-    authors: "Kunyan Zhang#, Yunfan Guo#, Qingqing Ji#, Ang-Yu Lu, Cong Su, Hua Wang, Alexander A. Puretzky, David Geohegan, Xiaofeng Qian, Shiang Fang, Efthimios Kaxiras, Jing Kong, Shengxi Huang"
+    authors: "Kunyan Zhang#, Yunfan Guo#, **Qingqing Ji#**, Ang-Yu Lu, Cong Su, Hua Wang, Alexander A. Puretzky, David Geohegan, Xiaofeng Qian, Shiang Fang, Efthimios Kaxiras, Jing Kong, Shengxi Huang"
     journal: "J. Am. Chem. Soc. 2020, 142, 17499-17507"
     year: 2020
 
   - number: 47
     title: "Synthetic Lateral Metal-Semiconductor Heterostructures of Transition Metal Disulfides"
-    authors: "Wei Sun Leong#, Qingqing Ji#*, Nannan Mao#, Yimo Han, Haozhe Wang, Aaron J. Goodman, Antoine Vignon, Cong Su, Yunfan Guo, Pin-Chun Shen, Zhenfei Gao, David A. Muller, William A. Tisdale, Jing Kong*"
+    authors: "Wei Sun Leong#, **Qingqing Ji#**, Nannan Mao#, Yimo Han, Haozhe Wang, Aaron J. Goodman, Antoine Vignon, Cong Su, Yunfan Guo, Pin-Chun Shen, Zhenfei Gao, David A. Muller, William A. Tisdale, Jing Kong*"
     journal: "J. Am. Chem. Soc. 2018, 140, 12354-12358"
     year: 2018
 
   - number: 46
     title: "In-situ Generated Volatile Precursor for CVD Growth of a Semimetallic 2D Dichalcogenide"
-    authors: "Zhenfei Gao, Qingqing Ji*, Pin-Chun Shen, Yimo Han, Wei Sun Leong, Nannan Mao, Lin Zhou, Cong Su, Jin Niu, Xiang Ji, Mahomed Mehdi Goulamaly, David A. Muller, Yongfeng Li*, Jing Kong*"
+    authors: "Zhenfei Gao, **Qingqing Ji**, Pin-Chun Shen, Yimo Han, Wei Sun Leong, Nannan Mao, Lin Zhou, Cong Su, Jin Niu, Xiang Ji, Mahomed Mehdi Goulamaly, David A. Muller, Yongfeng Li*, Jing Kong*"
     journal: "ACS Appl. Mater. Interfaces 2018, 10, 34401-34408"
     year: 2018
 
   - number: 45
     title: "Anomalous Hall Effect and Magnetic Orderings in Nanothick V5S8"
-    authors: "Jingjing Niu#, Qingqing Ji#, Baomin Yan, Mingqiang Li, Peng Gao, Zhongfan Liu, Yanfeng Zhang, Dapeng Yu, Xiaosong Wu"
+    authors: "Jingjing Niu#, **Qingqing Ji#**, Baomin Yan, Mingqiang Li, Peng Gao, Zhongfan Liu, Yanfeng Zhang, Dapeng Yu, Xiaosong Wu"
     journal: "Phys. Rev. B 2017, 96, 075402"
     year: 2017
 
   - number: 44
     title: "Metallic Vanadium Disulfide Nanosheets As a Platform Material for Multifunctional Electrode Applications"
-    authors: "Qingqing Ji, Cong Li, Jingli Wang, Jingjing Niu, Yue Gong, Zhepeng Zhang, Qiyi Fang, Yu Zhang, Jianping Shi, Lei Liao, Xiaosong Wu, Lin Gu, Zhongfan Liu, Yanfeng Zhang"
+    authors: "**Qingqing Ji**, Cong Li, Jingli Wang, Jingjing Niu, Yue Gong, Zhepeng Zhang, Qiyi Fang, Yu Zhang, Jianping Shi, Lei Liao, Xiaosong Wu, Lin Gu, Zhongfan Liu, Yanfeng Zhang"
     journal: "Nano Lett. 2017, 17, 4908-4916"
     year: 2017
 
   - number: 43
     title: "Transformation of Monolayer MoS2 into Multiphasic MoTe2: Chalcogen Atom-Exchange Synthesis Route"
-    authors: "Qiyi Fang#, Zhepeng Zhang#, Qingqing Ji#, Siya Zhu, Yu Zhang, Jianping Shi, Xiebo Zhou, Lin Gu, Qian Wang, Yanfeng Zhang"
+    authors: "Qiyi Fang#, Zhepeng Zhang#, **Qingqing Ji#**, Siya Zhu, Yu Zhang, Jianping Shi, Xiebo Zhou, Lin Gu, Qian Wang, Yanfeng Zhang"
     journal: "Nano Res. 2017, 10, 2761-2771"
     year: 2017
 
   - number: 42
     title: "Recent Advances in Controlling Syntheses and Energy Related Applications of MX2 and MX2/Graphene Heterostructures"
-    authors: "Jianping Shi#, Qingqing Ji#, Zhongfan Liu, Yanfeng Zhang"
+    authors: "Jianping Shi#, **Qingqing Ji#**, Zhongfan Liu, Yanfeng Zhang"
     journal: "Adv. Energy Mater. 2016, 6, 1600459"
     year: 2016
 
   - number: 41
     title: "Monolayer MoS2 Dendrites on a Symmetry-Disparate SrTiO3 (001) Substrate: Formation Mechanism and Interface Interaction"
-    authors: "Yu Zhang#, Qingqing Ji#, Jinxiu Wen, Jiu Li, Cong Li, Jianping Shi, Xiebo Zhou, Kebin Shi, Huanjun Chen, Yuanchang Li, Shaozhi Deng, Ningsheng Xu, Zhongfan Liu, Yanfeng Zhang"
+    authors: "Yu Zhang#, **Qingqing Ji#**, Jinxiu Wen, Jiu Li, Cong Li, Jianping Shi, Xiebo Zhou, Kebin Shi, Huanjun Chen, Yuanchang Li, Shaozhi Deng, Ningsheng Xu, Zhongfan Liu, Yanfeng Zhang"
     journal: "Adv. Funct. Mater. 2016, 26, 3299-3305"
     year: 2016
 
   - number: 40
     title: "Morphological Engineering of CVD-Grown Transition Metal Dichalcogenides for Efficient Electrochemical Hydrogen Evolution"
-    authors: "Qingqing Ji#, Yu Zhang#, Jianping Shi#, Jingyu Sun, Yanfeng Zhang, Zhongfan Liu"
+    authors: "**Qingqing Ji#**, Yu Zhang#, Jianping Shi#, Jingyu Sun, Yanfeng Zhang, Zhongfan Liu"
     journal: "Adv. Mater. 2016, 28, 6207-6212"
     year: 2016
 
   - number: 39
     title: "Chemical Vapor Deposition of Group-VIB Metal Dichalcogenide Monolayers: Engineered Substrates from Amorphous to Single Crystalline"
-    authors: "Qingqing Ji, Yu Zhang, Yanfeng Zhang, Zhongfan Liu"
+    authors: "**Qingqing Ji**, Yu Zhang, Yanfeng Zhang, Zhongfan Liu"
     journal: "Chem. Soc. Rev. 2015, 44, 2587-2602"
     year: 2015
 
   - number: 38
     title: "Unravelling Orientation Distribution and Merging Behavior of Monolayer MoS2 Domains on Sapphire"
-    authors: "Qingqing Ji, Min Kan, Yu Zhang, Yao Guo, Donglin Ma, Jianping Shi, Qiang Sun, Qing Chen, Yanfeng Zhang, Zhongfan Liu"
+    authors: "**Qingqing Ji**, Min Kan, Yu Zhang, Yao Guo, Donglin Ma, Jianping Shi, Qiang Sun, Qing Chen, Yanfeng Zhang, Zhongfan Liu"
     journal: "Nano Lett. 2015, 15, 198-205"
     year: 2015
 
   - number: 37
     title: "Epitaxial Monolayer MoS2 on Mica with Novel Photoluminescence"
-    authors: "Qingqing Ji, Yanfeng Zhang, Teng Gao, Yu Zhang, Donglin Ma, Mengxi Liu, Yubin Chen, Xiaofen Qiao, Ping-Heng Tan, Min Kan, Ji Feng, Qiang Sun, Zhongfan Liu"
+    authors: "**Qingqing Ji**, Yanfeng Zhang, Teng Gao, Yu Zhang, Donglin Ma, Mengxi Liu, Yubin Chen, Xiaofen Qiao, Ping-Heng Tan, Min Kan, Ji Feng, Qiang Sun, Zhongfan Liu"
     journal: "Nano Lett. 2013, 13, 3870-3877"
     year: 2013
 
   - number: 36
     title: "Chirality-Dependent Second Harmonic Generation of MoS2 Nanoscroll with Enhanced Efficiency"
-    authors: "Qingkai Qian, Rui Zu, Qingqing Ji, Gang Seob Jung, Kunyan Zhang, Ye Zhang, Markus J. Buehler, Jing Kong, Venkatraman Gopalan, Shengxi Huang"
+    authors: "Qingkai Qian, Rui Zu, **Qingqing Ji**, Gang Seob Jung, Kunyan Zhang, Ye Zhang, Markus J. Buehler, Jing Kong, Venkatraman Gopalan, Shengxi Huang"
     journal: "ACS Nano 2020, 14, 13333-13342"
     year: 2020
 
   - number: 35
     title: "Multifunctional PVDF/CNT/GO Mixed Matrix Membranes for Ultrafiltration and Fouling Detection"
-    authors: "Xiao-Tong Yuan, Chun-Xia Xu, Hong-Zhang Geng, Qingqing Ji, Luda Wang, Benqiao He, Yixuan Jiang, Jing Kong, Jianxin Li"
+    authors: "Xiao-Tong Yuan, Chun-Xia Xu, Hong-Zhang Geng, **Qingqing Ji**, Luda Wang, Benqiao He, Yixuan Jiang, Jing Kong, Jianxin Li"
     journal: "J. Hazard. Mater. 2020, 384, 120978"
     year: 2020
 
   - number: 34
     title: "Direct Observation of Symmetry-Dependent Electron-Phonon Coupling in Black Phosphorus"
-    authors: "Nannan Mao, Xingzhi Wang, Yuxuan Lin, Bobby G. Sumpter, Qingqing Ji, Tomas Palacios, Shengxi Huang, Vincent Meunier, Mildred S. Dresselhaus, William A. Tisdale, Liangbo Liang, Xi Ling, Jing Kong"
+    authors: "Nannan Mao, Xingzhi Wang, Yuxuan Lin, Bobby G. Sumpter, **Qingqing Ji**, Tomas Palacios, Shengxi Huang, Vincent Meunier, Mildred S. Dresselhaus, William A. Tisdale, Liangbo Liang, Xi Ling, Jing Kong"
     journal: "J. Am. Chem. Soc. 2019, 141, 18994-19001"
     year: 2019
 
   - number: 33
     title: "Additive Manufacturing of Patterned 2D Semiconductor through Recyclable Masked Growth"
-    authors: "Yunfan Guo, Pin-Chun Shen, Cong Su, Ang-Yu Lu, Marek Hempel, Yimo Han, Qingqing Ji, Yuxuan Lin, Enzheng Shi, Elaine McVay, Letian Dou, David A. Muller, Tomas Palacios, Ju Li, Xi Ling, Jing Kong"
+    authors: "Yunfan Guo, Pin-Chun Shen, Cong Su, Ang-Yu Lu, Marek Hempel, Yimo Han, **Qingqing Ji**, Yuxuan Lin, Enzheng Shi, Elaine McVay, Letian Dou, David A. Muller, Tomas Palacios, Ju Li, Xi Ling, Jing Kong"
     journal: "Proc. Natl. Acad. Sci. USA 2019, 116, 3437-3442"
     year: 2019
 
   - number: 32
     title: "Physical Properties and Potential Applications of Two-Dimensional Metallic Transition Metal Dichalcogenides"
-    authors: "Jianping Shi, Min Hong, Zhepeng Zhang, Qingqing Ji, Yanfeng Zhang"
+    authors: "Jianping Shi, Min Hong, Zhepeng Zhang, **Qingqing Ji**, Yanfeng Zhang"
     journal: "Coord. Chem. Rev. 2018, 376, 1-19"
     year: 2018
 
   - number: 31
     title: "Recent Progress in Tailored Growth of Two-Dimensional Hexagonal Boron Nitride via Chemical Vapour Deposition"
-    authors: "Jingyu Sun, Chen Lu, Yingze Song, Qingqing Ji, Xiuju Song, Qiucheng Li, Li Zhang, Yanfeng Zhang, Jing Kong, Zhongfan Liu"
+    authors: "Jingyu Sun, Chen Lu, Yingze Song, **Qingqing Ji**, Xiuju Song, Qiucheng Li, Li Zhang, Yanfeng Zhang, Jing Kong, Zhongfan Liu"
     journal: "Chem. Soc. Rev. 2018, 47, 4242-4257"
     year: 2018
 
   - number: 30
     title: "Growing Highly Pure Semiconducting Carbon Nanotubes by Electrotwisting the Helicity"
-    authors: "Jiangtao Wang, Xiang Jin, Zebin Liu, Guo Yu, Qingqing Ji, Haoming Wei, Jin Zhang, Ke Zhang, Dongqi Li, Zi Yuan, Jiachen Li, Peng Liu, Dr. Yang Wu, Yang Wei, Jiaping Wang, Qunqing Li, Lina Zhang, Jing Kong, Shoushan Fan, Kaili Jiang"
+    authors: "Jiangtao Wang, Xiang Jin, Zebin Liu, Guo Yu, **Qingqing Ji**, Haoming Wei, Jin Zhang, Ke Zhang, Dongqi Li, Zi Yuan, Jiachen Li, Peng Liu, Dr. Yang Wu, Yang Wei, Jiaping Wang, Qunqing Li, Lina Zhang, Jing Kong, Shoushan Fan, Kaili Jiang"
     journal: "Nat. Catal. 2018, 1, 326-331"
     year: 2018
 
   - number: 29
     title: "Crumpled Graphene Prepared by a Simple Ultrasonic Pyrolysis Method for Fast Photodetection"
-    authors: "Zhenfei Gao, Zhiwen Jin, Qingqing Ji, Yushu Tang, Jing Kong, Liqiang Zhang, Yongfeng Li"
+    authors: "Zhenfei Gao, Zhiwen Jin, **Qingqing Ji**, Yushu Tang, Jing Kong, Liqiang Zhang, Yongfeng Li"
     journal: "Carbon 2017, 128, 117-124"
     year: 2017
 
   - number: 28
     title: "Tuning Excitonic Properties of Monolayer MoS2 with Microsphere Cavity by High-throughput Chemical Vapor Deposition Method"
-    authors: "Yang Mi, Zhepeng Zhang, Liyun Zhao, Shuai Zhang, Jie Chen, Qingqing Ji, Jianping Shi, Xiebo Zhou, Rui Wang, Jia Shi, Wenna Du, Zhiyong Wu, Xiaohui Qiu, Qing Zhang, Yanfeng Zhang, Xinfeng Liu"
+    authors: "Yang Mi, Zhepeng Zhang, Liyun Zhao, Shuai Zhang, Jie Chen, **Qingqing Ji**, Jianping Shi, Xiebo Zhou, Rui Wang, Jia Shi, Wenna Du, Zhiyong Wu, Xiaohui Qiu, Qing Zhang, Yanfeng Zhang, Xinfeng Liu"
     journal: "Small 2017, 13, 1701694"
     year: 2017
 
   - number: 27
     title: "Van der Waals Epitaxial Growth of Two-Dimensional Metallic Vanadium Diselenide Single Crystals and Its Extra-High Electrical Conductivity"
-    authors: "Zhepeng Zhang, Jingjing Niu, Pengfei Yang, Yue Gong, Qingqing Ji, Jianping Shi, Qiyi Fang, Shaolong Jiang, He Li, Xiebo Zhou, Lin Gu, Xiaosong Wu, Yanfeng Zhang"
+    authors: "Zhepeng Zhang, Jingjing Niu, Pengfei Yang, Yue Gong, **Qingqing Ji**, Jianping Shi, Qiyi Fang, Shaolong Jiang, He Li, Xiebo Zhou, Lin Gu, Xiaosong Wu, Yanfeng Zhang"
     journal: "Adv. Mater. 2017, 29, 1702359"
     year: 2017
 
   - number: 26
     title: "Direct Chemical Vapor Deposition Growth and Band Gap Characterization of MoS2/h-BN van der Waals Heterostructures on Au Foils"
-    authors: "Zhepeng Zhang, Xujing Ji, Jianping Shi, Xiebo Zhou, Shuai Zhang, Yue Hou, Yue Qi, Qiyi Fang, Qingqing Ji, Yu Zhang, Min Hong, Pengfei Yang, Xinfeng Liu, Qing Zhang, Lei Liao, Chuanhong Jin, Zhongfan Liu, Yanfeng Zhang"
+    authors: "Zhepeng Zhang, Xujing Ji, Jianping Shi, Xiebo Zhou, Shuai Zhang, Yue Hou, Yue Qi, Qiyi Fang, **Qingqing Ji**, Yu Zhang, Min Hong, Pengfei Yang, Xinfeng Liu, Qing Zhang, Lei Liao, Chuanhong Jin, Zhongfan Liu, Yanfeng Zhang"
     journal: "ACS Nano 2017, 11, 4328-4336"
     year: 2017
 
   - number: 25
     title: "Temperature-Mediated Selective Growth of MoS2/WS2 and WS2/MoS2 Vertical Stacks on Au Foils for Direct Photocatalytic Applications"
-    authors: "Jianping Shi, Rui Tong, Xiebo Zhou, Yue Gong, Zhepeng Zhang, Qingqing Ji, Yu Zhang, Qiyi Fang, Lin Gu, Xina Wang, Zhongfan Liu, Yanfeng Zhang"
+    authors: "Jianping Shi, Rui Tong, Xiebo Zhou, Yue Gong, Zhepeng Zhang, **Qingqing Ji**, Yu Zhang, Qiyi Fang, Lin Gu, Xina Wang, Zhongfan Liu, Yanfeng Zhang"
     journal: "Adv. Mater. 2016, 28, 10664-10672"
     year: 2016
 
   - number: 24
     title: "Narrow‐Gap Quantum Wires Arising from the Edges of Monolayer MoS2 Synthesized on Graphene"
-    authors: "Jianping Shi, Xiebo Zhou, Gao‐Feng Han, Mengxi Liu, Donglin Ma, Jingyu Sun, Cong Li, Qingqing Ji, Yu Zhang, Xiuju Song, Xing‐You Lang, Qing Jiang, Zhongfan Liu, Yanfeng Zhang"
+    authors: "Jianping Shi, Xiebo Zhou, Gao‐Feng Han, Mengxi Liu, Donglin Ma, Jingyu Sun, Cong Li, **Qingqing Ji**, Yu Zhang, Xiuju Song, Xing‐You Lang, Qing Jiang, Zhongfan Liu, Yanfeng Zhang"
     journal: "Adv. Mater. Interfaces. 2016, 3, 1600332"
     year: 2016
 
   - number: 23
     title: "Modulating the Electronic Properties of Monolayer Graphene Using a Periodic Quasi-One-Dimensional Potential Generated by Hex-Reconstructed Au (001)"
-    authors: "Xiebo Zhou, Yue Qi, Jianping Shi, Jingjing Niu, Mengxi Liu, Guanhua Zhang, Qiucheng Li, Zhepeng Zhang, Min Hong, Qingqing Ji, Yu Zhang, Zhongfan Liu, Xiaosong Wu, Yanfeng Zhang"
+    authors: "Xiebo Zhou, Yue Qi, Jianping Shi, Jingjing Niu, Mengxi Liu, Guanhua Zhang, Qiucheng Li, Zhepeng Zhang, Min Hong, **Qingqing Ji**, Yu Zhang, Zhongfan Liu, Xiaosong Wu, Yanfeng Zhang"
     journal: "ACS Nano 2016, 10, 7550-7557"
     year: 2016
 
   - number: 22
     title: "Substrate Effect on the Growth of Monolayer Dendritic MoS2 on LaAlO3 (100) and Its Electrocatalytic Applications"
-    authors: "Cong Li, Yu Zhang, Qingqing Ji, Jianping Shi, Zhaolong Chen, Xiebo Zhou, Qiyi Fang, Yanfeng Zhang"
+    authors: "Cong Li, Yu Zhang, **Qingqing Ji**, Jianping Shi, Zhaolong Chen, Xiebo Zhou, Qiyi Fang, Yanfeng Zhang"
     journal: "2D Mater. 2016, 3, 035001"
     year: 2016
 
   - number: 21
     title: "Periodic Modulation of the Doping Level in Striped MoS2 Superstructures"
-    authors: "Xiebo Zhou, Jianping Shi, Yue Qi, Mengxi Liu, Donglin Ma, Yu Zhang, Qingqing Ji, Zhepeng Zhang, Cong Li, Zhongfan Liu, Yanfeng Zhang"
+    authors: "Xiebo Zhou, Jianping Shi, Yue Qi, Mengxi Liu, Donglin Ma, Yu Zhang, **Qingqing Ji**, Zhepeng Zhang, Cong Li, Zhongfan Liu, Yanfeng Zhang"
     journal: "ACS Nano 2016, 10, 3461-3468"
     year: 2016
 
   - number: 20
     title: "Bioinspired Synthesis of CVD Graphene Fakes and Graphene-Supported Molybdenum Sulfide Catalysts for Hydrogen Evolution Reaction"
-    authors: "Ke Chen, Cong Li, Zhaolong Chen, Liurong Shi, Sathish Reddy, Huan Meng, Qingqing Ji, Yanfeng Zhang, Zhongfan Liu"
+    authors: "Ke Chen, Cong Li, Zhaolong Chen, Liurong Shi, Sathish Reddy, Huan Meng, **Qingqing Ji**, Yanfeng Zhang, Zhongfan Liu"
     journal: "Nano Res. 2016, 9, 249-259"
     year: 2016
 
   - number: 19
     title: "An Ultrafast Terahertz Probe of the Transient Evolution of the Charged and Neutral Phase of Photo-Excited Electron-Hole gas in a Monolayer Semiconductor"
-    authors: "Xuefeng Liu, Hongyi Yu, Qingqing Ji, Zhihan Gao, Shaofeng Ge, Jun Qiu, Zhongfan Liu, Yanfeng Zhang, Dong Sun"
+    authors: "Xuefeng Liu, Hongyi Yu, **Qingqing Ji**, Zhihan Gao, Shaofeng Ge, Jun Qiu, Zhongfan Liu, Yanfeng Zhang, Dong Sun"
     journal: "2D Mater. 2016, 3, 014001"
     year: 2016
 
   - number: 18
     title: "Growing Three-Dimensional Biomorphic Graphene Powders Using Naturally Abundant Diatomite Templates Towards High Solution Processability"
-    authors: "Ke Chen, Cong Li, Liurong Shi, Teng Gao, Xiuju Song, Alicja Bachmatiuk, Zhiyu Zou, Bing Deng, Qingqing Ji, Donglin Ma, Hailin Peng, Zuliang Du, Mark Hermann Rümmeli, Yanfeng Zhang, Zhongfan Liu"
+    authors: "Ke Chen, Cong Li, Liurong Shi, Teng Gao, Xiuju Song, Alicja Bachmatiuk, Zhiyu Zou, Bing Deng, **Qingqing Ji**, Donglin Ma, Hailin Peng, Zuliang Du, Mark Hermann Rümmeli, Yanfeng Zhang, Zhongfan Liu"
     journal: "Nat. Commun. 2016, 7, 13440"
     year: 2016
 
   - number: 17
     title: "Tuning the Photo-Response in Monolayer MoS2 by Plasmonic Nano-Antenna"
-    authors: "Jiu Li, Qingqing Ji, Saisai Chu, Yanfeng Zhang, Yan Li, Qihuang Gong, Kaihui Liu, Kebin Shi"
+    authors: "Jiu Li, **Qingqing Ji**, Saisai Chu, Yanfeng Zhang, Yan Li, Qihuang Gong, Kaihui Liu, Kebin Shi"
     journal: "Sci. Rep. 2016, 6, 23626"
     year: 2016
 
   - number: 16
     title: "All Chemical Vapor Deposition Synthesis and Intrinsic Bandgap Observation of MoS2/Graphene Heterostructures"
-    authors: "Jianping Shi, Mengxi Liu, Jinxiu Wen, Xibiao Ren, Xiebo Zhou, Qingqing Ji, Donglin Ma, Yu Zhang, Chuanhong Jin, Huanjun Chen, Shaozhi Deng, Ningsheng Xu, Zhongfan Liu, Yanfeng Zhang"
+    authors: "Jianping Shi, Mengxi Liu, Jinxiu Wen, Xibiao Ren, Xiebo Zhou, **Qingqing Ji**, Donglin Ma, Yu Zhang, Chuanhong Jin, Huanjun Chen, Shaozhi Deng, Ningsheng Xu, Zhongfan Liu, Yanfeng Zhang"
     journal: "Adv. Mater. 2015, 27, 7086-7092"
     year: 2015
 
   - number: 15
     title: "A Universal Etching-Free Transfer of MoS2 Films for Applications in Photodetectors"
-    authors: "Donglin Ma, Jianping Shi, Qingqing Ji, Ke Chen, Jianbo Yin, Yuanwei Lin, Yu Zhang, Mengxi Liu, Qingliang Feng, Xiuju Song, Xuefeng Guo, Jin Zhang, Yanfeng Zhang, Zhongfan Liu"
+    authors: "Donglin Ma, Jianping Shi, **Qingqing Ji**, Ke Chen, Jianbo Yin, Yuanwei Lin, Yu Zhang, Mengxi Liu, Qingliang Feng, Xiuju Song, Xuefeng Guo, Jin Zhang, Yanfeng Zhang, Zhongfan Liu"
     journal: "Nano Res. 2015, 8, 3662-3672"
     year: 2015
 
   - number: 14
     title: "Direct Low-Temperature Synthesis of Graphene on Various Glasses by Plasma-Enhanced Chemical Vapor Deposition for Versatile, Cost-Effective Electrodes"
-    authors: "Jingyu Sun, Yubin Chen, Xin Cai, Bangjun Ma, Zhaolong Chen, Manish Kr. Priydarshi, Ke Chen, Teng Gao, Xiuju Song, Qingqing Ji, Xuefeng Guo, Dechun Zou, Yanfeng Zhang, Zhongfan Liu"
+    authors: "Jingyu Sun, Yubin Chen, Xin Cai, Bangjun Ma, Zhaolong Chen, Manish Kr. Priydarshi, Ke Chen, Teng Gao, Xiuju Song, **Qingqing Ji**, Xuefeng Guo, Dechun Zou, Yanfeng Zhang, Zhongfan Liu"
     journal: "Nano Res. 2015, 8, 3496-3504"
     year: 2015
 
   - number: 13
     title: "Kinetic Nature of Grain Boundary Formation in As-Grown MoS2 Monolayers"
-    authors: "Jingxin Cheng, Tao Jiang, Qingqing Ji, Yu Zhang, Zhiming Li, Yuwei Shan, Yanfeng Zhang, Xingao Gong, Weitao Liu, Shiwei Wu"
+    authors: "Jingxin Cheng, Tao Jiang, **Qingqing Ji**, Yu Zhang, Zhiming Li, Yuwei Shan, Yanfeng Zhang, Xingao Gong, Weitao Liu, Shiwei Wu"
     journal: "Adv. Mater. 2015, 27, 4069-4074"
     year: 2015
 
   - number: 12
     title: "Temperature-Triggered Chemical Switching Growth of In-Plane and Vertically Stacked Graphene-Boron Nitride Heterostructures"
-    authors: "Teng Gao, Xiuju Song, Huiwen Du, Yufeng Nie, Yubin Chen, Qingqing Ji, Jingyu Sun, Yanlian Yang, Yanfeng Zhang, Zhongfan Liu"
+    authors: "Teng Gao, Xiuju Song, Huiwen Du, Yufeng Nie, Yubin Chen, **Qingqing Ji**, Jingyu Sun, Yanlian Yang, Yanfeng Zhang, Zhongfan Liu"
     journal: "Nat. Commun. 2015, 6, 6835"
     year: 2015
 
   - number: 11
     title: "Substrate Facet Effect on the Growth of Monolayer MoS2 on Au Foils"
-    authors: "Jianping Shi, Xiaona Zhang, Donglin Ma, Jianbao Zhu, Yu Zhang, Zhenxi Guo, Yu Yao, Qingqing Ji, Xiuju Song, Yanshuo Zhang, Cong Li, Zhongfan Liu, Wenguang Zhu, Yanfeng Zhang"
+    authors: "Jianping Shi, Xiaona Zhang, Donglin Ma, Jianbao Zhu, Yu Zhang, Zhenxi Guo, Yu Yao, **Qingqing Ji**, Xiuju Song, Yanshuo Zhang, Cong Li, Zhongfan Liu, Wenguang Zhu, Yanfeng Zhang"
     journal: "ACS Nano 2015, 9, 4017-4025"
     year: 2015
 
   - number: 10
     title: "Chemical Vapor Deposition of Monolayer WS2 Nanosheets on Au Foils towards Direct Application in Hydrogen Evolution"
-    authors: "Yanshuo Zhang, Jianping Shi, Gao-Feng Han, Minjie Li, Qingqing Ji, Donglin Ma, Yu Zhang, Cong Li, Xing-You Lang, Yanfeng Zhang, Zhongfan Liu"
+    authors: "Yanshuo Zhang, Jianping Shi, Gao-Feng Han, Minjie Li, **Qingqing Ji**, Donglin Ma, Yu Zhang, Cong Li, Xing-You Lang, Yanfeng Zhang, Zhongfan Liu"
     journal: "Nano Res. 2015, 8, 2881-2890"
     year: 2015
 
   - number: 9
     title: "Uniform Single-Layer Graphene Growth on Recyclable Tungsten Foils"
-    authors: "Zhiyu Zou, Xiuju Song, Ke Chen, Qingqing Ji, Yanfeng Zhang, Zhongfan Liu"
+    authors: "Zhiyu Zou, Xiuju Song, Ke Chen, **Qingqing Ji**, Yanfeng Zhang, Zhongfan Liu"
     journal: "Nano Res. 2015, 8, 592-599"
     year: 2015
 
   - number: 8
     title: "Monolayer MoS2 Growth on Au Foils and On‐Site Domain Boundary Imaging"
-    authors: "Jianping Shi, Yang Yang, Yu Zhang, Donglin Ma, Wei Wei, Qingqing Ji, Yanshuo Zhang, Xiuju Song, Teng Gao, Cong Li, Xinhe Bao, Qiang Fu, Yanfeng Zhang"
+    authors: "Jianping Shi, Yang Yang, Yu Zhang, Donglin Ma, Wei Wei, **Qingqing Ji**, Yanshuo Zhang, Xiuju Song, Teng Gao, Cong Li, Xinhe Bao, Qiang Fu, Yanfeng Zhang"
     journal: "Adv. Funct. Mater. 2014, 25, 842-849"
     year: 2014
 
   - number: 7
     title: "Controllable Growth and Transfer of Monolayer MoS2 on Au Foils and Its Potential Application in Hydrogen Evolution Reaction"
-    authors: "Jianping Shi, Donglin Ma, Gao-Feng Han, Yu Zhang, Qingqing Ji, Teng Gao, Jingyu Sun, Xiuju Song, Cong Li, Yanshuo Zhang, Xing-You Lang, Yanfeng Zhang, Zhongfan Liu"
+    authors: "Jianping Shi, Donglin Ma, Gao-Feng Han, Yu Zhang, **Qingqing Ji**, Teng Gao, Jingyu Sun, Xiuju Song, Cong Li, Yanshuo Zhang, Xing-You Lang, Yanfeng Zhang, Zhongfan Liu"
     journal: "ACS Nano 2014, 8, 10196-10204"
     year: 2014
 
   - number: 6
     title: "Dendritic, Transferable, Strictly Monolayer MoS2 Flakes Synthesized on SrTiO3 Single Crystals for Efficient Electrocatalytic Applications"
-    authors: "Yu Zhang, Qingqing Ji, Gao-Feng Han, Jing Ju, Jianping Shi, Donglin Ma, Jingyu Sun, Yanshuo Zhang, Minjie Li, Xing-You Lang, Yanfeng Zhang, Zhongfan Liu"
+    authors: "Yu Zhang, **Qingqing Ji**, Gao-Feng Han, Jing Ju, Jianping Shi, Donglin Ma, Jingyu Sun, Yanshuo Zhang, Minjie Li, Xing-You Lang, Yanfeng Zhang, Zhongfan Liu"
     journal: "ACS Nano 2014, 8, 8617-8624"
     year: 2014
 
   - number: 5
     title: "High-Quality Monolayer Graphene Synthesis on Pd Foils via the Suppression of Multilayer Growth at Grain Boundaries"
-    authors: "Donglin Ma, Mengxi Liu, Teng Gao, Cong Li, Jingyu Sun, Yufeng Nie, Qingqing Ji, Yu Zhang, Xiuju Song, Yanfeng Zhang, Zhongfan Liu"
+    authors: "Donglin Ma, Mengxi Liu, Teng Gao, Cong Li, Jingyu Sun, Yufeng Nie, **Qingqing Ji**, Yu Zhang, Xiuju Song, Yanfeng Zhang, Zhongfan Liu"
     journal: "Small 2014, 10, 4003-4011"
     year: 2014
 
   - number: 4
     title: "Single and Polycrystalline Graphene on Rh(111) Following Different Growth Mechanisms"
-    authors: "Mengxi Liu, Yabo Gao, Yanfeng Zhang, Yu Zhang, Donglin Ma, Qingqing Ji, Teng Gao, Yubin Chen, Zhongfan Liu"
+    authors: "Mengxi Liu, Yabo Gao, Yanfeng Zhang, Yu Zhang, Donglin Ma, **Qingqing Ji**, Teng Gao, Yubin Chen, Zhongfan Liu"
     journal: "Small 2013, 9, 1360-1366"
     year: 2013
 
   - number: 3
     title: "Controlled Growth of High-Quality Monolayer WS2 Layers on Sapphire and Imaging Its Grain Boundary"
-    authors: "Yu Zhang, Yanfeng Zhang, Qingqing Ji, Jing Ju, Hongtao Yuan, Jianping Shi, Teng Gao, Donglin Ma, Mengxi Liu, Yubin Chen, Xiuju Song, Harold Y Hwang, Yi Cui, Zhongfan Liu"
+    authors: "Yu Zhang, Yanfeng Zhang, **Qingqing Ji**, Jing Ju, Hongtao Yuan, Jianping Shi, Teng Gao, Donglin Ma, Mengxi Liu, Yubin Chen, Xiuju Song, Harold Y Hwang, Yi Cui, Zhongfan Liu"
     journal: "ACS Nano 2013, 7, 8963-8971"
     year: 2013
 
   - number: 2
     title: "Mn Atomic Layers under Inert Covers of Graphene and h-BN Prepared on Rh (111)"
-    authors: "Yu Zhang, Yanfeng Zhang, Donglin Ma, Qingqing Ji, Wei Fang, Jianping Shi, Teng Gao, Mengxi Liu, Yabo Gao, Yubin Chen, Limei Xu, Zhongfan Liu"
+    authors: "Yu Zhang, Yanfeng Zhang, Donglin Ma, **Qingqing Ji**, Wei Fang, Jianping Shi, Teng Gao, Mengxi Liu, Yabo Gao, Yubin Chen, Limei Xu, Zhongfan Liu"
     journal: "Nano Res. 2013, 6, 887-896"
     year: 2013
 
   - number: 1
     title: "Clean Transfer of Graphene on Pt Foils Mediated by a Carbon Monoxide Intercalation Process"
-    authors: "Donglin Ma, Yanfeng Zhang, Mengxi Liu, Qingqing Ji, Teng Gao, Yu Zhang, Zhongfan Liu"
+    authors: "Donglin Ma, Yanfeng Zhang, Mengxi Liu, **Qingqing Ji**, Teng Gao, Yu Zhang, Zhongfan Liu"
     journal: "Nano Res. 2013, 6, 671-678"
     year: 2013
 
@@ -574,7 +618,7 @@ patents:
 
   - number: 3
     title: "In Situ Generation of Gaseous Precursors for CVD"
-    authors: "Jing Kong, Qingqing Ji, Zhenfei Gao"
+    authors: "Jing Kong, **Qingqing Ji**, Zhenfei Gao"
     journal: "US Patent App. 16/382,407"
     year: 2019
 
