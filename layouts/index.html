@@ -40,7 +40,7 @@
       {{ i18n "latest_news" }}
       <a href="{{ relLangURL "news/" }}" class="section-more">{{ i18n "read_more" }}</a>
     </h2>
-    <ul class="news-list">
+    <ul class="news-list news-list-home">
       {{ range first 5 (where .Site.RegularPages "Section" "news") }}
       <li class="news-item">
         <span class="news-date">{{ .Date.Format "2006-01-02" }}</span>

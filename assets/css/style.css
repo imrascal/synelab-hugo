@@ -520,6 +520,12 @@ button:focus-visible {
   list-style: none;
 }
 
+.news-list-home {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0 2rem;
+}
+
 .news-item {
   display: flex;
   gap: 1rem;
@@ -802,6 +808,10 @@ button:focus-visible {
 
   .lab-brand a {
     flex-direction: column;
+  }
+
+  .news-list-home {
+    grid-template-columns: 1fr;
   }
 }
 
