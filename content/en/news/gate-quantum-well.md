@@ -1,5 +1,5 @@
 ---
-title: Research | Tunable quantum well states in GaTe atomic layers
+title: Tunable quantum well states in GaTe atomic layers
 date: 2024-07-30
 tag: research
 ---

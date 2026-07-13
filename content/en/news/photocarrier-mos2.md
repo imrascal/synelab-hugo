@@ -1,5 +1,5 @@
 ---
-title: Research | Photocarrier diffusion dynamics in MoS2
+title: Photocarrier diffusion dynamics in MoS2
 date: 2024-07-22
 tag: research
 ---

@@ -1,5 +1,5 @@
 ---
-title: Activities | Welcome the Year of Horse!
+title: Welcome the Year of Horse!
 date: 2026-02-09
 tag: activities
 ---

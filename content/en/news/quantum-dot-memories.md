@@ -1,5 +1,5 @@
 ---
-title: Research | Quantum dot memories
+title: Quantum dot memories
 date: 2025-10-14
 tag: research
 ---

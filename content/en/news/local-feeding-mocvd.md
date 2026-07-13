@@ -1,5 +1,5 @@
 ---
-title: Research | Local-feeding MOCVD of 2D MoS2 crystals
+title: Local-feeding MOCVD of 2D MoS2 crystals
 date: 2024-06-06
 tag: research
 ---

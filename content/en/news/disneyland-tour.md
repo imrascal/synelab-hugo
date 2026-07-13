@@ -1,5 +1,5 @@
 ---
-title: Activities | SynE Group Tour to Disneyland!
+title: SynE Group Tour to Disneyland!
 date: 2025-03-25
 tag: activities
 ---

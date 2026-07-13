@@ -1,5 +1,5 @@
 ---
-title: Research | 6-inch graphene and devices
+title: 6-inch graphene and devices
 date: 2025-12-15
 tag: research
 ---

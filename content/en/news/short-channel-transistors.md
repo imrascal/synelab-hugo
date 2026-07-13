@@ -1,5 +1,5 @@
 ---
-title: Research | Dopants in short-channel 2D transistors
+title: Dopants in short-channel 2D transistors
 date: 2024-08-09
 tag: research
 ---

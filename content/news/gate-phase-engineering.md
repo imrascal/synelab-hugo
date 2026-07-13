@@ -1,5 +1,5 @@
 ---
-title: Research | Phase engineering of GaTe atomic layers
+title: Phase engineering of GaTe atomic layers
 date: 2025-04-14
 tag: research
 ---

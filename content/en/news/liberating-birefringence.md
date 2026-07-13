@@ -1,5 +1,5 @@
 ---
-title: Research | Liberating birefringence in MOFs
+title: Liberating birefringence in MOFs
 date: 2026-06-18
 tag: research
 ---
