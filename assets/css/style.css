@@ -690,7 +690,7 @@ button:focus-visible {
 
 .footer-grid {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 2rem;
   margin-bottom: 1.5rem;
 }
@@ -721,8 +721,18 @@ button:focus-visible {
   list-style: none;
 }
 
+.footer-links-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.4rem 1rem;
+}
+
 .footer-links li {
   margin-bottom: 0.4rem;
+}
+
+.footer-links-grid li {
+  margin-bottom: 0;
 }
 
 .footer-links a {
