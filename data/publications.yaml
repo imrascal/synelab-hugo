@@ -12,10 +12,17 @@
 #   - status:   论文状态（如 Submitted / In revision / Accepted，已发表则省略）
 
 # ============================================================
-# Since 2021 (39 papers, #1-#39)
+# Since 2021 (40 papers, #1-#40)
 # ============================================================
 
 since_2021:
+
+  - number: 40
+    title: "An Encoded Asymmetric Ligand for Metal-Selective Topological Assembly of Two-Dimensional Metal–Organic Frameworks"
+    authors: "Huimin Qi#, Jinkun Guo#, **Xinyan Wu#**, Weishan Li, Tongyang Zhao, Ze-Fan Yao, Hao Chen, Ling Zhang, Bin Jiang, Yi Liu, Haoyang Zhang, Yunlong Fan, Tianyang Chen, **Qingqing Ji***, Jin-Hu Dou*"
+    journal: "Submitted"
+    year: 2026
+    status: "Submitted"
 
   - number: 39
     title: "Revealing the Boltzmann Sigmoidal Activation by Iodide for Tunable Vanadium Doping in Monolayer MoS2"
