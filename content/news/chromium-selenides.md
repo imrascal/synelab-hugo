@@ -4,11 +4,10 @@ date: 2024-02-14
 tag: research
 ---
 
-Our collaborated paper with Prof. Yanfeng Zhang, Peking University, has got published in ACS Nano. Link is here. We help to understand the Raman characteristics of Cr2Se3 and Cr3Se4 through phonon band structure calculation and vibration mode visualization.
+我们与 Peking University 的 Prof. Yanfeng Zhang 合作的论文已在 ACS Nano 上发表。链接在此。我们通过声子能带结构计算和振动模式可视化，帮助理解了 Cr2Se3 和 Cr3Se4 的 Raman 特征。
 
 
 ![Raman characteristics of chromium selenides](/images/news/chromium-selenides.jpg)
 
 
 *[Source: x-mol.com](https://www.x-mol.com/groups/SynE/news/60411)*
-

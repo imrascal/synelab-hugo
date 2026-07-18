@@ -4,13 +4,12 @@ date: 2024-04-09
 tag: research
 ---
 
-Congrats to Shuo for his accepted paper entitled "One-Dimensional MoS2 Nanoscrolls as Miniaturized Memories" on Nano Letters!
+祝贺Shuo其题为"One-Dimensional MoS2 Nanoscrolls as Miniaturized Memories"的论文被Nano Letters接收！
 
-We improved the fabrication process for compact 1D MoS2 nanoscrolls, and revealed a dimensionality transformation-associated charge trapping phonomenon to realize miniaturized memories.
+我们改进了紧凑型一维MoS2纳米卷的制备工艺，并揭示了与维度转变相关的电荷俘获现象，从而实现了微型化存储器件。
 
 
 ![MoS2 nanoscroll memories](/images/news/mos2-nanoscroll-memories.png)
 
 
 *[Source: x-mol.com](https://www.x-mol.com/groups/SynE/news/62934)*
-

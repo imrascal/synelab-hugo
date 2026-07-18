@@ -4,13 +4,12 @@ date: 2025-10-14
 tag: research
 ---
 
-Congrats to to Yuanyuan for her first-author paper entitled "Core-shell quantum dot-enabled monolayer MoS2 memories with high endurance" being published in Matter!
+祝贺Yuanyuan其第一作者的论文"Core-shell quantum dot-enabled monolayer MoS2 memories with high endurance"发表于Matter！
 
-Precisely synthesized nanostructures allows for finely tuning their electronic functionalities. We report a mixed-dimensional memory architecture that integrates monolayer MoS2 with CdSe@CdS core-shell quantum dots, and establish the relationship between the QD structure and the charge storage property. The structural engineering of the core-shell QDs has enabled memory devices with excellent retention and endurance.
+精确合成的纳米结构能够精细调控其电子功能。我们报道了一种将单层MoS2与CdSe@CdS核壳量子点集成的混合维度存储器件架构，并建立了量子点结构与电荷存储性能之间的关系。核壳量子点的结构工程使存储器件具有优异的保持特性和耐久性。
 
 
 ![Quantum dot memories](/images/news/quantum-dot-memories.png)
 
 
 *[Source: x-mol.com](https://www.x-mol.com/groups/SynE/news/101451)*
-

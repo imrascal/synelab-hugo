@@ -4,13 +4,12 @@ date: 2025-04-14
 tag: research
 ---
 
-Congrats to Xinyan for his co-first authored paper "Phase Modulation of 2D Semiconducting GaTe from Hexagonal to Monoclinic through Layer Thickness Control and Strain Engineering" being published in Nano Letters!
+祝贺 Xinyan 作为共同第一作者的论文 "Phase Modulation of 2D Semiconducting GaTe from Hexagonal to Monoclinic through Layer Thickness Control and Strain Engineering" 在 Nano Letters 上发表！
 
-We colloborated with Prof. Yanfeng Zhang from Peking University in understanding, from a theoretical perspective, the phase engineering of GaTe atomic layers by thickness and local strain. Such phase engineerability should spark new possibilities in realizing novel heterostructures and superlattices.
+我们与 Peking University 的 Prof. Yanfeng Zhang 合作，从理论角度理解了通过厚度和局域应变对 GaTe 原子层进行的相工程。这种相可工程性将为实现新型异质结和超晶格带来新的可能性。
 
 
 ![Phase engineering of GaTe atomic layers](/images/news/gate-phase-engineering.jpg)
 
 
 *[Source: x-mol.com](https://www.x-mol.com/groups/SynE/news/87018)*
-
