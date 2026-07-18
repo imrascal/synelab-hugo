@@ -1,5 +1,5 @@
 ---
-title: Qingqing Ji: A rover in the 2D world
+title: "Qingqing Ji: A rover in the 2D world"
 date: 2021-07-20
 tag: activities
 ---
