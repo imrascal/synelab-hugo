@@ -4,4 +4,13 @@ date: 2025-04-14
 tag: research
 ---
 
-Wenzhi Quan, Xinyan Wu, Yujin Cheng, Yue Lu, Qilong Wu, Haoxuan Ding, Jingyi Hu, Jialong Wang, Tong Zhou, Qingqing Ji*, Yanfeng Zhang*. Phase Modulation of 2D Semiconducting GaTe through Layer Thickness Control and Strain Engineering. Nano Lett. 2025.
+Congrats to Xinyan for his co-first authored paper "Phase Modulation of 2D Semiconducting GaTe from Hexagonal to Monoclinic through Layer Thickness Control and Strain Engineering" being published in Nano Letters!
+
+We colloborated with Prof. Yanfeng Zhang from Peking University in understanding, from a theoretical perspective, the phase engineering of GaTe atomic layers by thickness and local strain. Such phase engineerability should spark new possibilities in realizing novel heterostructures and superlattices.
+
+
+![Phase engineering of GaTe atomic layers](/images/news/gate-phase-engineering.jpg)
+
+
+*[Source: x-mol.com](https://www.x-mol.com/groups/SynE/news/87018)*
+
