@@ -1,5 +1,5 @@
 ---
-title: Photocarrier diffusion dynamics in MoS2
+title: "MoS2中的光生载流子扩散动力学"
 date: 2024-07-22
 tag: research
 ---

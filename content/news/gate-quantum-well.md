@@ -1,5 +1,5 @@
 ---
-title: Tunable quantum well states in GaTe atomic layers
+title: "GaTe原子层中可调的量子阱态"
 date: 2024-07-30
 tag: research
 ---

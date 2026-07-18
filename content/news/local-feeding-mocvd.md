@@ -1,5 +1,5 @@
 ---
-title: Local-feeding MOCVD of 2D MoS2 crystals
+title: "二维MoS2晶体的局域供料MOCVD"
 date: 2024-06-06
 tag: research
 ---

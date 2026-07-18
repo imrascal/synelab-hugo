@@ -1,5 +1,5 @@
 ---
-title: Liberating birefringence in MOFs
+title: "释放MOFs中的双折射"
 date: 2026-06-18
 tag: research
 ---
@@ -13,7 +13,7 @@ tag: research
 我们小组进行了理论计算，为 π 共轭 MOF 晶体中如何释放光学各向异性提供了机理上的理解。
 
 
-![Liberating birefringence in MOFs](/images/news/liberating-birefringence.png)
+![释放MOFs中的双折射](/images/news/liberating-birefringence.png)
 
 
 *[Source: x-mol.com](https://www.x-mol.com/groups/SynE/news/119416)*

@@ -1,5 +1,5 @@
 ---
-title: MoS2 nanoscroll memories
+title: "MoS2纳米卷存储器"
 date: 2024-04-09
 tag: research
 ---
@@ -9,7 +9,7 @@ tag: research
 我们改进了紧凑型一维MoS2纳米卷的制备工艺，并揭示了与维度转变相关的电荷俘获现象，从而实现了微型化存储器件。
 
 
-![MoS2 nanoscroll memories](/images/news/mos2-nanoscroll-memories.png)
+![MoS2纳米卷存储器](/images/news/mos2-nanoscroll-memories.png)
 
 
 *[Source: x-mol.com](https://www.x-mol.com/groups/SynE/news/62934)*
