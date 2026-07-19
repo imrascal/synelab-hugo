@@ -617,7 +617,8 @@ button:focus-visible {
 .news-gallery {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1.25rem;
+  column-gap: 0.75rem;
+  row-gap: 1.5rem;
   flex: 1 1 auto;
   min-height: 0;
   overflow-y: auto;
