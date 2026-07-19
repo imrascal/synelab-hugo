@@ -12,19 +12,43 @@
   <div class="section">
     {{ .Content }}
 
-    <ul class="news-list">
-      {{ range .Pages.ByDate.Reverse }}
-      <li class="news-item">
-        <span class="news-date">{{ .Params.date.Format "2006-01-02" }}</span>
-        <span class="news-text">
-          {{ with .Params.tag }}
-          <span class="news-tag {{ . }}">{{ . }}</span>
+    <div class="news-layout">
+      <div class="news-list-col">
+        <ul class="news-list">
+          {{ range .Pages.ByDate.Reverse }}
+          <li class="news-item">
+            <span class="news-date">{{ .Params.date.Format "2006-01-02" }}</span>
+            <span class="news-text">
+              {{ with .Params.tag }}
+              <span class="news-tag {{ . }}">{{ . }}</span>
+              {{ end }}
+              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </span>
+          </li>
           {{ end }}
-          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-        </span>
-      </li>
-      {{ end }}
-    </ul>
+        </ul>
+      </div>
+
+      <div class="news-gallery-col">
+        <h3 class="news-gallery-title">{{ i18n "news_gallery" | default "新闻图集" }}</h3>
+        <div class="news-gallery">
+          {{ range .Pages.ByDate.Reverse }}
+          {{ $imgBase := printf "images/news/%s" .File.ContentBaseName }}
+          {{ $pngPath := printf "static/%s.png" $imgBase }}
+          {{ $jpgPath := printf "static/%s.jpg" $imgBase }}
+          {{ if fileExists $pngPath }}
+          <a href="{{ .RelPermalink }}" class="news-gallery-item">
+            <img src="{{ printf "/%s.png" $imgBase | relURL }}" alt="{{ .Title }}" loading="lazy">
+          </a>
+          {{ else if fileExists $jpgPath }}
+          <a href="{{ .RelPermalink }}" class="news-gallery-item">
+            <img src="{{ printf "/%s.jpg" $imgBase | relURL }}" alt="{{ .Title }}" loading="lazy">
+          </a>
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 {{ end }}

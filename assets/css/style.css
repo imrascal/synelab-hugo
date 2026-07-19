@@ -570,6 +570,75 @@ button:focus-visible {
   color: #276749;
 }
 
+.news-layout {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 2.5rem;
+  align-items: start;
+}
+
+.news-list-col {
+  min-width: 0;
+}
+
+.news-gallery-col {
+  position: sticky;
+  top: 120px;
+  min-width: 0;
+}
+
+.news-gallery-title {
+  font-size: 1.15rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--color-border);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.news-gallery-title::before {
+  content: '';
+  display: inline-block;
+  width: 3px;
+  height: 1.1rem;
+  background: var(--color-accent);
+  border-radius: 2px;
+}
+
+.news-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+}
+
+.news-gallery-item {
+  display: block;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition);
+  aspect-ratio: 1 / 1;
+  background: var(--color-bg-alt);
+}
+
+.news-gallery-item:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+}
+
+.news-gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.news-gallery-item:hover img {
+  transform: scale(1.05);
+}
+
 /* ---------- Research Section ---------- */
 .research-block {
   margin-bottom: 2rem;
@@ -823,6 +892,20 @@ button:focus-visible {
   .news-list-home {
     grid-template-columns: 1fr;
   }
+
+  .news-layout {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .news-gallery-col {
+    position: static;
+    order: -1;
+  }
+
+  .news-gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @media (max-width: 480px) {
@@ -838,6 +921,10 @@ button:focus-visible {
   .hero-profile .pi-photo {
     width: 140px;
     height: 140px;
+  }
+
+  .news-gallery {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
