@@ -131,3 +131,6 @@
 
 [news_gallery]
   other = "News Gallery"
+
+[pub_legend]
+  other = "*Corresponding author; #Co-first author; <strong>Bold names</strong>: SynE members"
