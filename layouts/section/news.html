@@ -38,11 +38,11 @@
           {{ $jpgPath := printf "static/%s.jpg" $imgBase }}
           {{ if fileExists $pngPath }}
           <a href="{{ .RelPermalink }}" class="news-gallery-item">
-            <img src="{{ printf "/%s.png" $imgBase | relURL }}" alt="{{ .Title }}" loading="lazy">
+            <img data-src="{{ printf "/%s.png" $imgBase | relURL }}" alt="{{ .Title }}" loading="lazy">
           </a>
           {{ else if fileExists $jpgPath }}
           <a href="{{ .RelPermalink }}" class="news-gallery-item">
-            <img src="{{ printf "/%s.jpg" $imgBase | relURL }}" alt="{{ .Title }}" loading="lazy">
+            <img data-src="{{ printf "/%s.jpg" $imgBase | relURL }}" alt="{{ .Title }}" loading="lazy">
           </a>
           {{ end }}
           {{ end }}
@@ -56,15 +56,40 @@
 (function() {
   var listCol = document.querySelector('.news-list-col');
   var galleryCol = document.querySelector('.news-gallery-col');
-  if (!listCol || !galleryCol) return;
+  var gallery = document.querySelector('.news-gallery');
+  if (!listCol || !galleryCol || !gallery) return;
+
+  var imagesLoaded = false;
+
+  function isMobile() {
+    return window.innerWidth <= 768;
+  }
+
+  function loadImages() {
+    if (imagesLoaded) return;
+    var imgs = gallery.querySelectorAll('img[data-src]');
+    for (var i = 0; i < imgs.length; i++) {
+      var src = imgs[i].getAttribute('data-src');
+      if (src) {
+        imgs[i].setAttribute('src', src);
+        imgs[i].removeAttribute('data-src');
+      }
+    }
+    imagesLoaded = true;
+  }
 
   function syncHeight() {
-    // 移动端单栏布局时不限制高度
-    if (window.innerWidth <= 768) {
+    if (isMobile()) {
       galleryCol.style.maxHeight = '';
       return;
     }
+    loadImages();
     galleryCol.style.maxHeight = listCol.offsetHeight + 'px';
+  }
+
+  if (typeof ResizeObserver !== 'undefined') {
+    var ro = new ResizeObserver(syncHeight);
+    ro.observe(listCol);
   }
 
   if (document.readyState === 'loading') {

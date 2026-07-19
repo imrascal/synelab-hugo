@@ -929,13 +929,7 @@ button:focus-visible {
   }
 
   .news-gallery-col {
-    order: -1;
-    max-height: none;
-  }
-
-  .news-gallery {
-    grid-template-columns: repeat(3, 1fr);
-    overflow-y: visible;
+    display: none;
   }
 }
 
@@ -952,10 +946,6 @@ button:focus-visible {
   .hero-profile .pi-photo {
     width: 140px;
     height: 140px;
-  }
-
-  .news-gallery {
-    grid-template-columns: repeat(2, 1fr);
   }
 }
 
