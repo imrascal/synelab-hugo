@@ -59,7 +59,7 @@
       <a href="{{ relLangURL "publications/" }}" class="section-more">{{ i18n "read_more" }}</a>
     </h2>
     <p class="text-muted text-small mb-2">
-      *通讯作者；#共同一作；<strong>加粗姓名</strong>：SynE组员
+      {{ i18n "pub_legend" | safeHTML }}
     </p>
     {{ $pubData := .Site.Data.publications }}
     {{ $recentPubs := slice }}
