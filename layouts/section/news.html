@@ -51,4 +51,29 @@
     </div>
   </div>
 </div>
+
+<script>
+(function() {
+  var listCol = document.querySelector('.news-list-col');
+  var galleryCol = document.querySelector('.news-gallery-col');
+  if (!listCol || !galleryCol) return;
+
+  function syncHeight() {
+    // 移动端单栏布局时不限制高度
+    if (window.innerWidth <= 768) {
+      galleryCol.style.maxHeight = '';
+      return;
+    }
+    galleryCol.style.maxHeight = listCol.offsetHeight + 'px';
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', syncHeight);
+  } else {
+    syncHeight();
+  }
+  window.addEventListener('load', syncHeight);
+  window.addEventListener('resize', syncHeight);
+})();
+</script>
 {{ end }}

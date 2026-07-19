@@ -582,19 +582,27 @@ button:focus-visible {
 }
 
 .news-gallery-col {
-  position: sticky;
-  top: 120px;
   min-width: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 1rem;
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
 }
 
 .news-gallery-title {
   font-size: 1.15rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
   padding-bottom: 0.5rem;
   border-bottom: 2px solid var(--color-border);
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  flex: 0 0 auto;
 }
 
 .news-gallery-title::before {
@@ -610,6 +618,28 @@ button:focus-visible {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 0.75rem;
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  padding-right: 0.25rem;
+}
+
+/* 滚动条样式 */
+.news-gallery::-webkit-scrollbar {
+  width: 6px;
+}
+
+.news-gallery::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.news-gallery::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 3px;
+}
+
+.news-gallery::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-muted);
 }
 
 .news-gallery-item {
@@ -619,7 +649,7 @@ button:focus-visible {
   box-shadow: var(--shadow-sm);
   transition: all var(--transition);
   aspect-ratio: 1 / 1;
-  background: var(--color-bg-alt);
+  background: var(--color-bg);
 }
 
 .news-gallery-item:hover {
@@ -899,12 +929,13 @@ button:focus-visible {
   }
 
   .news-gallery-col {
-    position: static;
     order: -1;
+    max-height: none;
   }
 
   .news-gallery {
     grid-template-columns: repeat(3, 1fr);
+    overflow-y: visible;
   }
 }
 
