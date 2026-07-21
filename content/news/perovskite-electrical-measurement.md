@@ -9,4 +9,7 @@ tag: research
 点击[此处](https://www.x-mol.com/groups/SynE/news/60410)了解更多信息。
 
 
+![铅基钙钛矿的电学测量](/images/news/perovskite-electrical-measurement.png)
+
+
 *[Source: x-mol.com](https://www.x-mol.com/groups/SynE/news/60410)*
