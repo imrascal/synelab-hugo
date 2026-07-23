@@ -39,9 +39,8 @@
             {{ .authors | replaceRE "\\*\\*(.+?)\\*\\*" "<strong>$1</strong>" | safeHTML }}
           </span><br>
           {{ with .journal }}
-          <span class="pub-journal">{{ . }}</span>
+          <span class="pub-journal">{{ . }}</span>.
           {{ end }}
-          <span class="pub-year"> {{ $pub.year }}</span>.
           {{ with .doi }}
           <a href="https://doi.org/{{ . }}" target="_blank">DOI</a>
           {{ end }}
@@ -76,9 +75,8 @@
             {{ .authors | replaceRE "\\*\\*(.+?)\\*\\*" "<strong>$1</strong>" | safeHTML }}
           </span><br>
           {{ with .journal }}
-          <span class="pub-journal">{{ . }}</span>
+          <span class="pub-journal">{{ . }}</span>.
           {{ end }}
-          <span class="pub-year"> {{ $pub.year }}</span>.
           {{ with .doi }}
           <a href="https://doi.org/{{ . }}" target="_blank">DOI</a>
           {{ end }}
