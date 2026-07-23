@@ -82,7 +82,6 @@
           </span>
           <span class="pub-authors"> — {{ .authors | replaceRE "\\*\\*(.+?)\\*\\*" "<strong>$1</strong>" | safeHTML }}</span><br>
           <span class="pub-journal">{{ .journal }}</span>
-          <span class="pub-year"> {{ $pub.year }}</span>
         </div>
       </li>
       {{ end }}
