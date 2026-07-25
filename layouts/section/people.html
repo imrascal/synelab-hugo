@@ -40,7 +40,7 @@
   <div class="section">
     <h2 class="section-title">{{ i18n . }}</h2>
     <div class="card-grid">
-      {{ range $roleMembers }}
+      {{ range sort $roleMembers ".Date" }}
       <div class="person-card">
         {{ $name := .Title }}
         {{ with .Params.photo }}
@@ -60,7 +60,7 @@
   <div class="section">
     <h2 class="section-title">{{ i18n "alumni" }}</h2>
     <ul class="alumni-list">
-      {{ range $alumni }}
+      {{ range sort $alumni ".Params.period_start" }}
       <li>
         <strong>{{ .Title }}</strong>
         {{ with .Params.current_position }} — {{ . }}{{ end }}
