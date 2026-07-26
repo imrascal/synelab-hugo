@@ -134,3 +134,6 @@
 
 [pub_legend]
   other = "*通讯作者；#共同一作；<strong>加粗姓名</strong>：SynE组员"
+
+[visitor_count]
+  other = "访问次数："

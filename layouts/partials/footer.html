@@ -24,8 +24,19 @@
       </div>
     </div>
 
+    {{ if .Site.Params.visitorCount }}
+    <div class="visitor-count">
+      <span>{{ i18n "visitor_count" }}</span>
+      <span id="busuanzi_value_site_pv"></span>
+    </div>
+    {{ end }}
+
     <div class="footer-bottom">
       <p>{{ i18n "footer_copyright" }}</p>
     </div>
   </div>
 </footer>
+
+{{ if .Site.Params.visitorCount }}
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+{{ end }}

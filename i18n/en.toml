@@ -134,3 +134,6 @@
 
 [pub_legend]
   other = "*Corresponding author; #Co-first author; <strong>Bold names</strong>: SynE members"
+
+[visitor_count]
+  other = "Visits: "
