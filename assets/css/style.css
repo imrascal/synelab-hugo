@@ -844,6 +844,17 @@ button:focus-visible {
   font-size: 0.85rem;
 }
 
+.visitor-count {
+  text-align: center;
+  font-size: 0.8rem;
+  opacity: 0.7;
+  margin-bottom: 0.75rem;
+}
+
+.visitor-count span {
+  color: rgba(255, 255, 255, 0.85);
+}
+
 .footer-bottom {
   border-top: 1px solid rgba(255, 255, 255, 0.15);
   padding-top: 1rem;
