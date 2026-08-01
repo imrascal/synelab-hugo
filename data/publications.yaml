@@ -53,25 +53,23 @@ since_2021:
     status: "In revision"
 
   - number: 36
-    title: "Homo-Metal-Element Mediated Surface Modification of Sapphire for Robust Epitaxy of Wafer-Scale Monolayer TMDCs Single Crystals"
-    authors: "Jialong Wang, Yihao Zheng, **Qingsheng Zeng**, Yuhang Jing, You Peng, Tong Zhou, Li Yin, **Xinyan Wu**, Chenxi Zhang, Yujin Cheng, Haoxuan Ding, Xiyao Wang, Wei Wei, Li Lin, Jinlong Du, **Qingqing Ji**, Jing Xia, Chenguang Qiu, Lian-Mao Peng, Yanfeng Zhang"
-    journal: "In revision"
-    year: 2026
-    status: "In revision"
-
-  - number: 35
-    title: "Organic Metal Halogenide Netted Colloidal Quantum Dot Superlattice"
-    authors: "Haobo Wu, Yu Chen, Xin Wen, Weixuan Liu, Wenjia Zhou, Jiahui Du, Zihao Wang, Mingyu Ma, Hao Liang, Wei Zhou, Hao Wang, **Yue Lu**, Ziyao Ma, Yaxin Zhao, **Qingqing Ji**, Baile Chen, Jun Jiang, Yi Yu, F. Pelayo García de Arquer, Fan Zheng, Zhijun Ning"
-    journal: "In revision"
-    year: 2026
-    status: "In revision"
-
-  - number: 34
     title: "Enhanced Catalytic Activity for Hydrogen Evolution Reaction in Edge-Rich Monolayer Janus WSeS"
     authors: "Yi Zhou#, **Xinyan Wu#**, You Peng#, Biao Yuan, Lingjun Qi, Hanzhi Huang, Hongzhi Shen, Jinkun Liu, Tong Zhou, Zhao Zhang, Yu Han, Yanfeng Zhang*, **Qingqing Ji***, Yunfan Guo*"
     journal: "In revision"
     year: 2026
     status: "In revision"
+
+  - number: 35
+    title: "Homo-Metal-Element Mediated Surface Modification of Sapphire for Robust Epitaxy of Wafer-Scale Monolayer TMDCs Single Crystals"
+    authors: "Jialong Wang, Yihao Zheng, **Qingsheng Zeng**, Yuhang Jing, You Peng, Tong Zhou, Li Yin, **Xinyan Wu**, Chenxi Zhang, Yujin Cheng, Haoxuan Ding, Xiyao Wang, Wei Wei, Li Lin, Jinlong Du, **Qingqing Ji**, Jing Xia, Chenguang Qiu, Lian-Mao Peng, Yanfeng Zhang"
+    journal: "Nat. Commun. 2026, Accepted"
+    year: 2026
+
+  - number: 34
+    title: "Organic Metal Halogenide Netted Colloidal Quantum Dot Superlattice"
+    authors: "Haobo Wu, Yu Chen, Xin Wen, Weixuan Liu, Wenjia Zhou, Jiahui Du, Zihao Wang, Mingyu Ma, Hao Liang, Wei Zhou, Hao Wang, **Yue Lu**, Ziyao Ma, Yaxin Zhao, **Qingqing Ji**, Baile Chen, Jun Jiang, Yi Yu, F. Pelayo García de Arquer, Fan Zheng, Zhijun Ning"
+    journal: "J. Am. Chem. Soc. 2026, Accepted"
+    year: 2026
 
   - number: 33
     title: "Programmable Anomalous Photovoltaics Enabled by Light-electric Dual-Field Control"
