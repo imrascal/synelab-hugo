@@ -10,4 +10,4 @@ tag: research
 ![硒化铬的拉曼特征](/images/news/chromium-selenides.jpg)
 
 
-*[Source: x-mol.com](https://www.x-mol.com/groups/SynE/news/60411)*
+*[Source: x-mol.com](https://www.x-mol.com/groups/SynE/news/60410)*

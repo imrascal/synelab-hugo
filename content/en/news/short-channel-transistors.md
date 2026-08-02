@@ -12,5 +12,5 @@ In this work, using ab initio calculation and quantum transport simulation, we a
 ![Dopants in short-channel 2D transistors](/images/news/short-channel-transistors.png)
 
 
-*[Source: x-mol.com](https://www.x-mol.com/groups/SynE/news/71077)*
+*[Source: x-mol.com](https://www.x-mol.com/groups/SynE/news/70265)*
 

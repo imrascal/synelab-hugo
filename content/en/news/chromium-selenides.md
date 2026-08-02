@@ -10,5 +10,5 @@ Our collaborated paper with Prof. Yanfeng Zhang, Peking University, has got publ
 ![Raman characteristics of chromium selenides](/images/news/chromium-selenides.jpg)
 
 
-*[Source: x-mol.com](https://www.x-mol.com/groups/SynE/news/60411)*
+*[Source: x-mol.com](https://www.x-mol.com/groups/SynE/news/60410)*
 

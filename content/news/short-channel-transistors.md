@@ -12,4 +12,4 @@ tag: research
 ![短沟道二维晶体管中的掺杂剂](/images/news/short-channel-transistors.png)
 
 
-*[Source: x-mol.com](https://www.x-mol.com/groups/SynE/news/71077)*
+*[Source: x-mol.com](https://www.x-mol.com/groups/SynE/news/70265)*

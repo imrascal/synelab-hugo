@@ -10,4 +10,4 @@ tag: research
 ![自发线缺陷诱导的Co4Te7超晶格](/images/news/co4te7-superlattices.png)
 
 
-*[Source: x-mol.com](https://www.x-mol.com/groups/SynE/news/61637)*
+*[Source: x-mol.com](https://www.x-mol.com/groups/SynE/news/60411)*

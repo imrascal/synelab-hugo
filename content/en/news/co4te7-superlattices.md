@@ -10,5 +10,5 @@ Our collaborated paper entitled "Spontaneous Line Defect-Induced Co4Te7 Superla
 ![Spontaneous line defect-induced Co4Te7 superlattices](/images/news/co4te7-superlattices.png)
 
 
-*[Source: x-mol.com](https://www.x-mol.com/groups/SynE/news/61637)*
+*[Source: x-mol.com](https://www.x-mol.com/groups/SynE/news/60411)*
 
