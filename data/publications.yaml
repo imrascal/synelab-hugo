@@ -68,8 +68,10 @@ since_2021:
   - number: 34
     title: "Organic Metal Halogenide Netted Colloidal Quantum Dot Superlattice"
     authors: "Haobo Wu, Yu Chen, Xin Wen, Weixuan Liu, Wenjia Zhou, Jiahui Du, Zihao Wang, Mingyu Ma, Hao Liang, Wei Zhou, Hao Wang, **Yue Lu**, Ziyao Ma, Yaxin Zhao, **Qingqing Ji**, Baile Chen, Jun Jiang, Yi Yu, F. Pelayo García de Arquer, Fan Zheng, Zhijun Ning"
-    journal: "J. Am. Chem. Soc. 2026, Accepted"
+    journal: "J. Am. Chem. Soc. 2026"
     year: 2026
+    doi: "10.1021/jacs.6c12708"
+    url: "https://doi.org/10.1021/jacs.6c12708"
 
   - number: 33
     title: "Programmable Anomalous Photovoltaics Enabled by Light-electric Dual-Field Control"
