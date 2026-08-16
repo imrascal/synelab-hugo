@@ -314,3 +314,185 @@ synelab-hugo/
 ## 维护联系人
 
 如有技术问题，请联系网站管理员。
+
+---
+
+## 十一、X-MOL 课题组页面 → synelab 同步指南（月度维护）
+
+> **适用场景**：每月定期将 X-MOL 课题组网站的最新论文、新闻同步到 synelab.xyz。
+> **核心教训**：仅靠"标题匹配"容易漏掉论文状态变更（如 Accepted→已发表、补充 DOI/URL 等）。必须结合 CrossRef 查询做二次校验。
+
+### 11.1 数据源与访问方式
+
+| 数据源 | URL | 访问方式 | 说明 |
+|--------|-----|----------|------|
+| 新闻列表 | `https://www.x-mol.com/groups/SynE/news` | **WebFetch** 可用 | 返回纯文本新闻列表（标题、日期、链接 ID） |
+| 新闻详情 | `https://www.x-mol.com/groups/SynE/news/{id}` | **WebFetch** 可用 | 返回单条新闻的正文内容 |
+| 论文列表 | `https://www.x-mol.com/groups/SynE/publications` | **WebFetch** 可用 | 返回纯文本论文列表，但**无 DOI/URL** |
+| CrossRef API | `https://api.crossref.org/works/{DOI}` | **curl** 可用 | 权威的论文元数据查询，获取 DOI、卷期页码、发表日期 |
+
+### 11.2 同步流程（论文）
+
+#### Step 1：抓取 X-MOL 论文列表
+
+```bash
+# 使用 WebFetch 抓取，输出为纯文本格式
+# 关键信息：编号、标题、作者、期刊、状态（Submitted/In revision/Accepted/已发表）
+```
+
+**注意**：X-MOL 论文列表只显示期刊名和状态，**不显示 DOI 和 URL**。必须通过 CrossRef 补充。
+
+#### Step 2：识别新增论文 + 状态变更
+
+```python
+# 对比 data/publications.yaml，识别两类变更：
+# A) 新增论文（X-MOL 有、YAML 没有）
+# B) 状态变更（如 "Accepted" → 已发表，或补充了 DOI）
+
+# 新增论文：添加到 since_2021 列表顶部，编号递增
+# 状态变更：就地修改对应条目的 status/journal 字段
+```
+
+#### Step 3：CrossRef 查询补充 DOI/URL
+
+**这是最关键的一步**——X-MOL 的论文经常显示 "Accepted" 但没有 DOI，需通过 CrossRef 查询最新状态：
+
+```bash
+# 查询单篇论文的 CrossRef 信息（通过标题搜索）
+curl -s "https://api.crossref.org/works?query.title=论文标题&rows=3" | python3 -c "
+import json, sys
+data = json.load(sys.stdin)
+for item in data['message']['items']:
+    print(f\"Title: {item.get('title',[''])[0]}\")
+    print(f\"DOI: {item.get('DOI','')}\")
+    print(f\"Journal: {item.get('container-title',[''])[0]}\")
+    published = item.get('published-print', item.get('published-online', {}))
+    print(f\"Date: {published}\")
+    print(f\"Type: {item.get('type','')}\")
+    print('---')
+"
+```
+
+**CrossRef 查询策略**：
+1. **精确标题匹配**：用 `query.title` 参数搜索，取第一个匹配项
+2. **验证匹配度**：对比标题相似度（建议 >90% 才算匹配）
+3. **提取元数据**：DOI、期刊名、发表日期、卷期页码
+4. **判断发表状态**：
+   - `type: "journal-article"` + 有 `published-print` 日期 → 已发表
+   - 有 DOI 但无发表日期 → Early Access / Accepted
+   - 无 DOI → Submitted / In revision
+
+#### Step 4：更新 data/publications.yaml
+
+```yaml
+# 新增条目模板
+  - number: 42
+    title: "论文标题"
+    authors: "作者列表（保留 X-MOL 格式）"
+    journal: "期刊名 2026"
+    year: 2026
+    doi: "10.xxxx/xxxxx"          # CrossRef 获取
+    url: "https://doi.org/10.xxxx/xxxxx"  # CrossRef 获取
+
+# 状态变更（例如 Accepted → 已发表，补充 DOI/URL）
+  - number: 34
+    title: "..."
+    journal: "J. Am. Chem. Soc. 2026"  # 去掉 ", Accepted"
+    year: 2026
+    doi: "10.1021/jacs.6c12708"        # 新增
+    url: "https://doi.org/10.1021/jacs.6c12708"  # 新增
+```
+
+### 11.3 同步流程（新闻）
+
+#### Step 1：抓取新闻列表
+
+```bash
+# WebFetch 抓取 https://www.x-mol.com/groups/SynE/news
+# 输出格式：
+# - [• Research | 新闻标题](/groups/SynE/news/{id}) 2026-06-18
+```
+
+#### Step 2：对比现有新闻文件
+
+```bash
+# 列出 content/news/ 目录下所有 .md 文件
+# 提取每条新闻的 source URL 中的 ID：
+grep -h "Source: x-mol.com" content/news/*.md | grep -oP 'news/\K[0-9]+' | sort -n
+
+# 对比 X-MOL 列表中的 ID，找出新增 ID
+```
+
+#### Step 3：抓取新闻详情
+
+```bash
+# 对每个新增 ID，用 WebFetch 抓取详情页
+# 提取：标题、正文、发布日期、配图 URL
+```
+
+#### Step 4：创建新闻文件
+
+在 `content/news/` 和 `content/en/news/` 下各创建一个文件：
+
+```yaml
+# content/news/short-slug.md（中文版）
+---
+title: "新闻标题（中文）"
+date: 2026-08-16
+tag: research        # research 或 activities
+---
+
+正文内容（中文翻译，参考现有新闻风格）
+
+![配图描述](/images/news/short-slug.png)
+
+*[Source: x-mol.com](https://www.x-mol.com/groups/SynE/news/{id})*
+```
+
+### 11.4 提交与推送
+
+```bash
+git add data/publications.yaml content/news/新文件.md content/en/news/新文件.md
+git commit -m "content: sync x-mol updates YYYY-MM-DD"
+git push origin main
+```
+
+### 11.5 部署验证
+
+```bash
+# 检查 GitHub Actions 状态
+curl -s -H "Authorization: token ${GH_TOKEN}" \
+  "https://api.github.com/repos/imrascal/synelab-hugo/actions/runs?per_page=1" \
+  | python3 -c "
+import json, sys
+r = json.load(sys.stdin)['workflow_runs'][0]
+print(f\"Status: {r['status']} / {r.get('conclusion', 'N/A')}\")
+print(f\"URL: {r['html_url']}\")
+"
+
+# 或直接访问 https://github.com/imrascal/synelab-hugo/actions
+```
+
+### 11.6 常见坑点与对策
+
+| 坑点 | 对策 |
+|------|------|
+| **curl/WebFetch 触发阿里云滑块验证码** | X-MOL 主页和新闻页有时会拦截。使用 WebFetch 即可访问，若被拦截改用浏览器 MCP |
+| **论文列表无 DOI** | 必须通过 CrossRef API 补充。不要假设"Accepted"状态不需要 DOI——很多已分配 DOI 但状态仍为 Accepted |
+| **论文状态误判** | 用 CrossRef 的 `type` 字段判断：`journal-article` = 已发表；有 DOI 无 type = Early Access |
+| **新闻 source URL 错位** | 创建新闻文件时严格核对 X-MOL 新闻 ID，避免 A 文指向 B 文的 URL |
+| **论文编号错乱** | 新增论文的编号必须基于 YAML 中最大编号递增，不能跳号或重复 |
+| **中英文新闻不同步** | 新增新闻必须同时在 `content/news/` 和 `content/en/news/` 下创建对应文件 |
+
+### 11.7 完整检查清单
+
+每次同步完成前，逐项确认：
+
+- [ ] X-MOL 论文列表与 YAML 逐一对比（新增 + 状态变更）
+- [ ] 所有论文的 DOI/URL 已通过 CrossRef 验证
+- [ ] X-MOL 新闻列表与 `content/news/` 逐一对比
+- [ ] 新增新闻的中英文版本均已创建
+- [ ] 新闻 source URL 指向正确的 X-MOL 新闻 ID
+- [ ] `data/publications.yaml` 注释中的论文总数已更新
+- [ ] `git diff` 审核所有变更内容
+- [ ] GitHub Actions 构建成功
