@@ -60,10 +60,12 @@ since_2021:
     status: "In revision"
 
   - number: 35
-    title: "Homo-Metal-Element Mediated Surface Modification of Sapphire for Robust Epitaxy of Wafer-Scale Monolayer TMDCs Single Crystals"
+    title: "Homo-Metal-Element Mediated Surface Modification of Sapphire for Robust Epitaxy of Wafer-Scale Single-Crystalline 2D Semiconductors"
     authors: "Jialong Wang, Yihao Zheng, **Qingsheng Zeng**, Yuhang Jing, You Peng, Tong Zhou, Li Yin, **Xinyan Wu**, Chenxi Zhang, Yujin Cheng, Haoxuan Ding, Xiyao Wang, Wei Wei, Li Lin, Jinlong Du, **Qingqing Ji**, Jing Xia, Chenguang Qiu, Lian-Mao Peng, Yanfeng Zhang"
-    journal: "Nat. Commun. 2026, Accepted"
+    journal: "Nat. Commun. 2026"
     year: 2026
+    doi: "10.1038/s41467-026-77131-w"
+    url: "https://doi.org/10.1038/s41467-026-77131-w"
 
   - number: 34
     title: "Organic Metal Halogenide Netted Colloidal Quantum Dot Superlattice"
