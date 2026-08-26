@@ -25,40 +25,39 @@ since_2021:
     status: "Submitted"
 
   - number: 40
-    title: "An Encoded Asymmetric Ligand for Metal-Selective Topological Assembly of Two-Dimensional Metal–Organic Frameworks"
-    authors: "Huimin Qi#, Jinkun Guo#, **Xinyan Wu#**, Weishan Li, Tongyang Zhao, Ze-Fan Yao, Hao Chen, Ling Zhang, Bin Jiang, Yi Liu, Haoyang Zhang, Yunlong Fan, Tianyang Chen, **Qingqing Ji***, Jin-Hu Dou*"
-    journal: "Submitted"
-    year: 2026
-    status: "Submitted"
-
-  - number: 39
     title: "Sub-Attojoule Switching at Ultralow Voltage in Two-Dimensional Bismuth Oxyiodide Memristor with Reconfigurable Volatility and Non-Volatility"
     authors: "Chuxuan Xiao#, **Xinyan Wu#**, Luying Song#, Shuo Chen, Xiaohui Li, Ruihan Xu, Zhu Du, Jialiang Wu, Hang Sun, Yuhang Li, Wenbo Zhao, Kaichen Zhu, Wenwu Li, **Qingqing Ji***, Jianping Shi*, Jun He*"
     journal: "Submitted"
     year: 2026
     status: "Submitted"
 
+  - number: 39
+    title: "An Encoded Asymmetric Ligand for Metal-Selective Topological Assembly of Two-Dimensional Metal–Organic Frameworks"
+    authors: "Huimin Qi#, Jinkun Guo#, **Xinyan Wu#**, Weishan Li, Tongyang Zhao, Ze-Fan Yao, Hao Chen, Ling Zhang, Bin Jiang, Yi Liu, Haoyang Zhang, Yunlong Fan, Tianyang Chen, **Qingqing Ji***, Jin-Hu Dou*"
+    journal: "Submitted"
+    year: 2026
+    status: "Submitted"
+
   - number: 38
-    title: "Revealing the Boltzmann Sigmoidal Activation by Iodide for Tunable Vanadium Doping in Monolayer MoS2"
-    authors: "**Yuanyuan Qiu#**, **Bin Hua#**, Zhenping Wang#, **Fei Hu**, **Yang Lu**, Marvin L. Cohen, Alex Zettl, Cong Su*, Young Woo Choi*, **Qingqing Ji***"
-    journal: "In revision"
-    year: 2026
-    status: "In revision"
-
-  - number: 37
-    title: "Chirality-dependent Electrical Characteristics of MoS2 Nanoscroll Transistors"
-    authors: "**Yuanyuan Qiu#**, **Fei Hu#**, Min Chen#, Jialong Wang, **Xiushuo Ma**, **Qingsheng Zeng**, Chenyazhi Hu, Jun Li, Kecheng Cao, Yanfeng Zhang, **Qingqing Ji***"
-    journal: "In revision"
-    year: 2026
-    status: "In revision"
-
-  - number: 36
     title: "Enhanced Catalytic Activity for Hydrogen Evolution Reaction in Edge-Rich Monolayer Janus WSeS"
     authors: "Yi Zhou#, **Xinyan Wu#**, You Peng#, Biao Yuan, Lingjun Qi, Hanzhi Huang, Hongzhi Shen, Jinkun Liu, Tong Zhou, Zhao Zhang, Yu Han, Yanfeng Zhang*, **Qingqing Ji***, Yunfan Guo*"
     journal: "In revision"
     year: 2026
     status: "In revision"
 
+  - number: 37
+    title: "Revealing the Boltzmann Sigmoidal Activation by Iodide for Tunable Vanadium Doping in Monolayer MoS2"
+    authors: "**Yuanyuan Qiu#**, **Bin Hua#**, Zhenping Wang#, **Fei Hu**, **Yang Lu**, Marvin L. Cohen, Alex Zettl, Cong Su*, Young Woo Choi*, **Qingqing Ji***"
+    journal: "In revision"
+    year: 2026
+    status: "In revision"
+
+  - number: 36
+    title: "Chirality-dependent Electrical Characteristics of MoS2 Nanoscroll Transistors"
+    authors: "**Yuanyuan Qiu#**, **Fei Hu#**, Min Chen#, Jialong Wang, **Xiushuo Ma**, **Qingsheng Zeng**, Chenyazhi Hu, Jun Li, Kecheng Cao, Yanfeng Zhang, **Qingqing Ji***"
+    journal: "J. Am. Chem. Soc. 2026, Accepted"
+    year: 2026
+    status: "Accepted"
   - number: 35
     title: "Homo-Metal-Element Mediated Surface Modification of Sapphire for Robust Epitaxy of Wafer-Scale Single-Crystalline 2D Semiconductors"
     authors: "Jialong Wang, Yihao Zheng, **Qingsheng Zeng**, Yuhang Jing, You Peng, Tong Zhou, Li Yin, **Xinyan Wu**, Chenxi Zhang, Yujin Cheng, Haoxuan Ding, Xiyao Wang, Wei Wei, Li Lin, Jinlong Du, **Qingqing Ji**, Jing Xia, Chenguang Qiu, Lian-Mao Peng, Yanfeng Zhang"
@@ -310,6 +309,7 @@ since_2021:
     url: "https://www.pnas.org/content/118/32/e2106124118"
 
 # ============================================================
+
 # Before 2021 (50 papers, #1-#50)
 # ============================================================
 
