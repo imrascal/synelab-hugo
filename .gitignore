@@ -12,6 +12,7 @@ resources/
 .idea/
 *.swp
 *.swo
+.trae-html-share-packages/
 
 # Temporary files
 *.tmp
