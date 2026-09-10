@@ -26,7 +26,7 @@ since_2021:
 
   - number: 40
     title: "Sub-Attojoule Switching at Ultralow Voltage in Two-Dimensional Bismuth Oxyiodide Memristor with Reconfigurable Volatility and Non-Volatility"
-    authors: "Chuxuan Xiao#, **Xinyan Wu#**, Luying Song#, Shuo Chen, Xiaohui Li, Ruihan Xu, Zhu Du, Jialiang Wu, Hang Sun, Yuhang Li, Wenbo Zhao, Kaichen Zhu, Wenwu Li, **Qingqing Ji***, Jianping Shi*, Jun He*"
+    authors: "Chuxuan Xiao#, **Xinyan Wu#**, Luying Song#, Shuo Chen, Xiaohui Li, Ruihan Xu, Zhu Du, Jialiang Wu, Hang Sun, Yuhang Li, Wenbo Zhao, Kaichen Zhu, Wenwu Li, **Qingqing Ji***, Jianping Shi*"
     journal: "Submitted"
     year: 2026
     status: "Submitted"
@@ -55,9 +55,10 @@ since_2021:
   - number: 36
     title: "Chirality-dependent Electrical Characteristics of MoS2 Nanoscroll Transistors"
     authors: "**Yuanyuan Qiu#**, **Fei Hu#**, Min Chen#, Jialong Wang, **Xiushuo Ma**, **Qingsheng Zeng**, Chenyazhi Hu, Jun Li, Kecheng Cao, Yanfeng Zhang, **Qingqing Ji***"
-    journal: "J. Am. Chem. Soc. 2026, Accepted"
+    journal: "J. Am. Chem. Soc. 2026"
     year: 2026
-    status: "Accepted"
+    doi: "10.1021/jacs.6c11716"
+    url: "https://doi.org/10.1021/jacs.6c11716"
   - number: 35
     title: "Homo-Metal-Element Mediated Surface Modification of Sapphire for Robust Epitaxy of Wafer-Scale Single-Crystalline 2D Semiconductors"
     authors: "Jialong Wang, Yihao Zheng, **Qingsheng Zeng**, Yuhang Jing, You Peng, Tong Zhou, Li Yin, **Xinyan Wu**, Chenxi Zhang, Yujin Cheng, Haoxuan Ding, Xiyao Wang, Wei Wei, Li Lin, Jinlong Du, **Qingqing Ji**, Jing Xia, Chenguang Qiu, Lian-Mao Peng, Yanfeng Zhang"
