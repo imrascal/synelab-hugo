@@ -47,10 +47,10 @@ since_2021:
 
   - number: 37
     title: "Boltzmann Sigmoidal Modulation of Vanadium Doping in Monolayer MoS2 by Potassium Iodide"
-    authors: "**Yuanyuan Qiu#**, **Bin Hua#**, Zhenping Wang#, **Fei Hu**, **Yang Lu**, Marvin L. Cohen, Alex Zettl, Cong Su*, Young Woo Choi*, **Qingqing Ji***"
-    journal: "In revision"
+    authors: "**Yuanyuan Qiu#**, **Bin Hua#**, Zhenping Wang#, **Fei Hu#**, **Yang Lu**, Marvin L. Cohen, Alex Zettl, Cong Su*, Young Woo Choi*, **Qingqing Ji***"
+    journal: "Nano Lett."
     year: 2026
-    status: "In revision"
+    status: "Accepted"
 
   - number: 36
     title: "Chirality-dependent Electrical Characteristics of MoS2 Nanoscroll Transistors"
