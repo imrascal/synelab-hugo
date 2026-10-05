@@ -127,20 +127,84 @@ git push origin main
 
 ```yaml
 since_2021:
-  - number: 41              # 新编号，递增
+  - number: 42              # 新编号，递增
     title: "论文完整标题"
     authors: "作者A, **张三**, **纪清清***, 作者D"
-    journal: "Nature Chemistry"
-    year: "2026"
-    doi: "10.1038/s41557-026-xxxxx"    # 可选
+    journal: "J. Am. Chem. Soc. 2026, 148, 40087-40094."
+    url: "https://doi.org/10.1038/s41557-026-xxxxx"  # 用作标题点击链接
     highlight: "被 Nature 亮点报道"      # 可选
 ```
 
-格式说明：
-- `number`：递增编号
-- `authors`：作者列表；**加粗**表示 SynE 组员；`*` 表示通讯作者；`#` 表示共同一作
-- `doi`：有 DOI 时自动添加链接
-- `highlight`：如有特殊报道，会高亮显示
+**作者列表格式约定**：
+- 组员：`**张三**`（加粗）
+- 通讯作者：`张三*`（星号）
+- 共同一作：`张三#`（井号）
+- 三者组合：`**张三#*`
+
+#### ⚠️ journal 字段规范（重要）
+
+> journal 字段是模板渲染论文信息的**唯一文本来源**。必须一次性写全，不要依赖独立的 `doi` 字段。
+
+**规则**：
+
+| 场景 | journal 字段写法 | 独立 `doi` 字段 |
+|------|-----------------|----------------|
+| ✅ 有正式卷刊号页码 | `"J. Am. Chem. Soc. 2026, 148, 40087-40094."` | **不写**（不要保留） |
+| ⚠️ 有 DOI 但无卷刊号 | `"Nano Lett. 2026, DOI: 10.1021/acs.nanolett.6c03019."` | **不写**（DOI 号码直接写 journal 里） |
+| 📝 Submitted / In revision | `"Submitted."` / `"In revision."` | **不写** |
+| ✨ Accepted 但无卷号 | `"Accepted."` 或 `"期刊名 2026, DOI: xxx."` 视能否查到 DOI 而定 | **不写** |
+
+**核心原则**：
+1. **永远不要写独立的 `doi` 字段**——模板的 `{{ with .doi }}` 分支已废弃
+2. journal 字段末尾保留英文句点 `.`（模板拼接样式一致）
+3. `url` 字段**可以保留**——模板用它做"论文标题"的点击链接，与 DOI 展示是两条独立通路
+
+#### journal 字段的正则校验（快速判断）
+
+```python
+import re
+
+def has_full_pages(journal: str) -> bool:
+    # journal 包含 年份 + 卷号 + 页码/文章号
+    return bool(re.search(r'\d{4},\s*\d+,\s*(e?\d+|[A-Za-z]+\d+|[\d\-]+)', journal))
+
+def format_journal(journal: str, doi: str = '') -> str:
+    journal = journal.strip().rstrip('.')
+    if doi and not has_full_pages(journal):
+        if 'DOI:' not in journal:
+            journal += f', DOI: {doi}'
+    return journal + '.'
+```
+
+### 3.2 论文 diff 策略（月度同步必看）
+
+> **教训**：仅靠"期刊名关键词匹配"（如两边都有 `"j. am. chem"` 就算匹配）会漏掉 journal 字段里卷号页码的补全。必须做**精确字段比对**。
+
+**错误策略**：
+```python
+# ❌ 只取关键词集合
+mol_kw = set(re.findall(r'[a-z]+', mol_journal.lower()))
+yml_kw = set(re.findall(r'[a-z]+', yml_journal.lower()))
+if mol_kw == yml_kw:  # "J. Am. Chem. Soc." ≈ "JACS" → 误判为一致
+    match = True
+```
+
+**正确策略**：
+```python
+# ✅ 按完整字符串逐字段比对
+# journal: 完整比对（含年份、卷号、页码、DOI 号码）
+# authors: 比对作者列表（允许加粗/*/# 标记差异）
+# title: 精确匹配（或相似度 > 95%）
+
+def parse_journal(j: str) -> dict:
+    return {
+        'full_text': j,
+        'has_vol_page': has_full_pages(j),
+        'has_doi_inline': 'DOI:' in j,
+    }
+```
+
+### 3.3 提交与发布
 
 ### 3.2 提交并发布
 
@@ -385,23 +449,27 @@ for item in data['message']['items']:
 #### Step 4：更新 data/publications.yaml
 
 ```yaml
-# 新增条目模板
+# 新增条目模板（有正式卷刊号）
   - number: 42
     title: "论文标题"
     authors: "作者列表（保留 X-MOL 格式）"
-    journal: "期刊名 2026"
-    year: 2026
-    doi: "10.xxxx/xxxxx"          # CrossRef 获取
-    url: "https://doi.org/10.xxxx/xxxxx"  # CrossRef 获取
+    journal: "J. Am. Chem. Soc. 2026, 148, 40087-40094."
+    url: "https://doi.org/10.xxxx/xxxxx"  # 保留，用作标题点击链接
 
-# 状态变更（例如 Accepted → 已发表，补充 DOI/URL）
+# 无正式卷刊号但有 DOI → DOI 号码写进 journal 字段
+  - number: 43
+    title: "..."
+    journal: "Nano Lett. 2026, DOI: 10.1021/acs.nanolett.6c03019."
+    url: "https://doi.org/10.1021/acs.nanolett.6c03019"
+
+# 状态变更（Accepted → 已发表，补全卷刊号）
   - number: 34
     title: "..."
-    journal: "J. Am. Chem. Soc. 2026"  # 去掉 ", Accepted"
-    year: 2026
-    doi: "10.1021/jacs.6c12708"        # 新增
-    url: "https://doi.org/10.1021/jacs.6c12708"  # 新增
+    journal: "J. Am. Chem. Soc. 2026, 148, 40087-40094."  # 去掉 ", Accepted"，补全卷刊号
+    url: "https://doi.org/10.1021/jacs.6c12708"
 ```
+
+> ⚠️ **永远不要留独立的 `doi:` 字段**。模板中 `{{ with .doi }}` 分支已废弃，所有 DOI 信息必须合并进 `journal` 字段的文本里。
 
 ### 11.3 同步流程（新闻）
 
@@ -483,6 +551,8 @@ print(f\"URL: {r['html_url']}\")
 | **新闻 source URL 错位** | 创建新闻文件时严格核对 X-MOL 新闻 ID，避免 A 文指向 B 文的 URL |
 | **论文编号错乱** | 新增论文的编号必须基于 YAML 中最大编号递增，不能跳号或重复 |
 | **中英文新闻不同步** | 新增新闻必须同时在 `content/news/` 和 `content/en/news/` 下创建对应文件 |
+| **journal 字段只写期刊名** | 月度 diff 必须检查 journal 里是否**补全了卷号、页码**、是否把 DOI 号码合并进来，不能只做关键词匹配 |
+| **留独立 doi 字段** | 模板 `{{ with .doi }}` 已废弃，所有 DOI 号码合并到 journal 字段里，独立 doi 字段一律删除 |
 
 ### 11.7 完整检查清单
 
