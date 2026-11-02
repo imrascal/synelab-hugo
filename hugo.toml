@@ -17,10 +17,10 @@ copyright = "© 2021–2026 Synthetic Electronics Laboratory, ShanghaiTech Unive
     languageName = "中文"
     weight = 1
     title = "合成电子学实验室"
-    description = "以化成器 | Towards electronics, in a chemistry way"
+    description = "以化成器 | Toward electronics, through chemistry"
     [languages.zh.params]
       labName = "合成电子学实验室"
-      labSlogan = "以化成器 | Towards electronics, in a chemistry way"
+      labSlogan = "以化成器 | Toward electronics, through chemistry"
       piName = "纪清清"
       affiliation = "上海科技大学物质科学与技术学院"
       hero_description = "合成电子学(Synthetic Electronics, SynE)旨在设计合成纳米乃至量子尺度半导体的杂化及异质结构，探索晶体管的尺寸极限，为后摩尔时代的微纳器件构筑提供一种可能的化学思路。由此践行系统材料学理念，追求材料器件化目标。"
@@ -60,11 +60,11 @@ copyright = "© 2021–2026 Synthetic Electronics Laboratory, ShanghaiTech Unive
     languageName = "English"
     weight = 2
     title = "Synthetic Electronics Laboratory"
-    description = "以化成器 | Towards electronics, in a chemistry way"
+    description = "以化成器 | Toward electronics, through chemistry"
     contentDir = "content/en"
     [languages.en.params]
       labName = "Synthetic Electronics Laboratory"
-      labSlogan = "Towards electronics, in a chemistry way"
+      labSlogan = "Toward electronics, through chemistry"
       piName = "Qingqing Ji"
       affiliation = "School of Physical Science and Technology, ShanghaiTech University"
       hero_description = "Synthetic Electronics (SynE) aims to design and synthesize hybrid and heterostructures of semiconductors at the nanometer and quantum scales, exploring the size limits of transistors and providing a possible chemical approach to building micro/nano devices for the post-Moore era."
